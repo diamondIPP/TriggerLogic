@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 4 resources" deleteContents="false" description="Delete 4 resources" element1="/helo_world/src/tftpserver.c" element2="/helo_world/src/tftpserver.h" element3="/helo_world/src/tftputils.c" element4="/helo_world/src/tftputils.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="4" stamp="1443105995632"/>
+</session>

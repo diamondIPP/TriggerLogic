@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# 
+# Start of session at: Wed Sep  2 09:14:13 2015
+# Process ID: 25730
+# Log file: /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/webtalk/webtalk.log
+# Journal file: /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

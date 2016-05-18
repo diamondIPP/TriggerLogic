@@ -1,0 +1,152 @@
+{
+   da_axi4_cnt: "9",
+   da_board_cnt: "3",
+   da_mb_cnt: "1",
+   guistr: "# # String gsaved with Nlview 6.4.12  2014-12-16 bk=1.3272 VDI=35 GEI=35 GUI=JA:1.8
+#  -string -flagsOSRD
+preplace port TRIG_1 -pg 1 -y 2580 -defaultsOSRD
+preplace port CLK_0 -pg 1 -y 2210 -defaultsOSRD
+preplace port sys_clk_n -pg 1 -y 2360 -defaultsOSRD
+preplace port TRIG_2 -pg 1 -y 2600 -defaultsOSRD
+preplace port CLK_1 -pg 1 -y 2230 -defaultsOSRD
+preplace port mdio -pg 1 -y 770 -defaultsOSRD
+preplace port TRIG_3 -pg 1 -y 2620 -defaultsOSRD
+preplace port CLK_2 -pg 1 -y 2250 -defaultsOSRD
+preplace port sys_clk_p -pg 1 -y 2330 -defaultsOSRD
+preplace port rgmii -pg 1 -y 910 -defaultsOSRD
+preplace port RS232_Uart -pg 1 -y 1970 -defaultsOSRD
+preplace port LCD_7Bits -pg 1 -y 230 -defaultsOSRD
+preplace port spi_flash -pg 1 -y 20 -defaultsOSRD
+preplace port DDR3 -pg 1 -y 2050 -defaultsOSRD
+preplace port phy_reset_out -pg 1 -y 970 -defaultsOSRD
+preplace port LED_4Bits -pg 1 -y 210 -defaultsOSRD
+preplace port reset -pg 1 -y 1590 -defaultsOSRD
+preplace portBus DRS4_TRIG_IN_CH2 -pg 1 -y 380 -defaultsOSRD
+preplace portBus LOGIC_DRS4_CH4 -pg 1 -y 300 -defaultsOSRD
+preplace portBus CAEN_DIG -pg 1 -y 440 -defaultsOSRD
+preplace portBus FASTOR_TRIG_IN -pg 1 -y 300 -defaultsOSRD
+preplace portBus PSI46_ATB_DTB -pg 1 -y 400 -defaultsOSRD
+preplace portBus PULSER_PREAMP_TP_SEL -pg 1 -y 360 -defaultsOSRD
+preplace portBus PULSER_PREAMP_TP_TTL -pg 1 -y 320 -defaultsOSRD
+preplace portBus LOGIC_PREAMP_TP_SEL -pg 1 -y 2360 -defaultsOSRD
+preplace portBus BEAM_CURRENT_IN -pg 1 -y 360 -defaultsOSRD
+preplace portBus SCINTILLATOR_TRIG_IN -pg 1 -y 340 -defaultsOSRD
+preplace portBus BUSY_IN -pg 1 -y 380 -defaultsOSRD
+preplace portBus DRS4_CH3 -pg 1 -y 420 -defaultsOSRD
+preplace portBus DIAMOND_TRIG_IN -pg 1 -y 320 -defaultsOSRD
+preplace portBus PULSER_DRS4_CH4 -pg 1 -y 340 -defaultsOSRD
+preplace inst rst_clk_wiz_0_125M -pg 1 -lvl 7 -y 1250 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 7 -y 2340 -defaultsOSRD
+preplace inst phase_shift_40MHz_clk_gen_axi_0 -pg 1 -lvl 6 -y 2230 -defaultsOSRD
+preplace inst rst_clk_wiz_0_401M -pg 1 -lvl 7 -y 1440 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 2 -y 1720 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 7 -y 220 -defaultsOSRD
+preplace inst real_time_clock_v1_0_S00_AXI_0 -pg 1 -lvl 6 -y 2050 -defaultsOSRD
+preplace inst microblaze_0_xlconcat -pg 1 -lvl 2 -y 960 -defaultsOSRD
+preplace inst axi_timer_0 -pg 1 -lvl 7 -y 1060 -defaultsOSRD
+preplace inst proc_sys_reset_1 -pg 1 -lvl 1 -y 1480 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 7 -y 1860 -defaultsOSRD
+preplace inst microblaze_0_axi_intc -pg 1 -lvl 3 -y 1190 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 3 -y 1690 -defaultsOSRD
+preplace inst trigger_logic_AXI_0 -pg 1 -lvl 6 -y 2510 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 4 -y 1220 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 7 -y 2040 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 6 -y 1310 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 5 -y 630 -defaultsOSRD
+preplace inst axi_ethernet_0 -pg 1 -lvl 7 -y 760 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 6 -y 1780 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 7 -y 1640 -defaultsOSRD
+preplace inst axi_quad_spi_0 -pg 1 -lvl 7 -y 90 -defaultsOSRD
+preplace inst axi_ethernet_0_dma -pg 1 -lvl 4 -y 860 -defaultsOSRD
+preplace netloc axi_ethernet_0_mdio 1 7 1 8100
+preplace netloc axi_ethernet_0_dma_s2mm_prmry_reset_out_n 1 4 3 NJ 970 NJ 970 7160
+preplace netloc axi_ethernet_0_dma_m_axi_sg 1 4 1 4570
+preplace netloc axi_timer_0_interrupt 1 1 7 660 700 NJ 700 NJ 700 NJ 920 NJ 920 NJ 590 7970
+preplace netloc axi_quad_spi_0_SPI_0 1 7 1 8130
+preplace netloc axi_bram_ctrl_0_bram_porta 1 6 1 7210
+preplace netloc microblaze_0_axi_periph_m02_axi 1 2 5 NJ 1780 NJ 2200 NJ 2200 NJ 1710 7190
+preplace netloc axi_ethernet_0_rgmii 1 7 1 8080
+preplace netloc axi_ethernet_0_dma_m_axis_mm2s 1 4 3 NJ 930 NJ 930 7100
+preplace netloc axi_bram_ctrl_0_bram_portb 1 6 1 7180
+preplace netloc trigger_logic_AXI_0_CAEN_DIG 1 6 2 7270 2520 NJ
+preplace netloc microblaze_0_intc_axi 1 2 1 2360
+preplace netloc microblaze_0_axi_periph_m01_axi 1 2 5 NJ 1770 NJ 2190 NJ 2190 NJ 1700 7210
+preplace netloc BUSY_IN_1 1 0 6 NJ 2540 NJ 2540 NJ 2540 NJ 2540 NJ 2540 N
+preplace netloc trigger_logic_AXI_0_PULSER_DRS4_CH4 1 6 2 7060 2470 NJ
+preplace netloc trigger_logic_AXI_0_PULSER_PREAMP_TP_TTL 1 6 2 7100 2460 NJ
+preplace netloc phase_shift_40MHz_clk_gen_axi_0_CLK_0 1 6 2 N 2210 NJ
+preplace netloc axi_ethernet_0_dma_mm2s_introut 1 1 4 680 710 NJ 710 NJ 710 4510
+preplace netloc axi_ethernet_0_dma_s2mm_sts_reset_out_n 1 4 3 NJ 980 NJ 980 7180
+preplace netloc axi_gpio_0_GPIO 1 7 1 N
+preplace netloc trigger_logic_AXI_0_TRIG_1 1 6 2 N 2580 NJ
+preplace netloc phase_shift_40MHz_clk_gen_axi_0_CLK_1 1 6 2 N 2230 NJ
+preplace netloc SCINTILLATOR_TRIG_IN_1 1 0 6 NJ 2390 NJ 2390 NJ 2390 NJ 2390 NJ 2390 5820
+preplace netloc mig_7series_0_ddr3 1 7 1 8080
+preplace netloc axi_ethernet_0_dma_m_axis_cntrl 1 4 3 NJ 940 NJ 940 7110
+preplace netloc trigger_logic_AXI_0_TRIG_2 1 6 2 N 2600 NJ
+preplace netloc phase_shift_40MHz_clk_gen_axi_0_CLK_2 1 6 2 7240 2240 NJ
+preplace netloc axi_gpio_0_GPIO2 1 7 1 N
+preplace netloc trigger_logic_AXI_0_TRIG_3 1 6 2 N 2620 NJ
+preplace netloc proc_sys_reset_1_bus_struct_reset 1 1 6 710 1390 NJ 1390 NJ 1670 NJ 1670 NJ 1670 NJ
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 0 8 320 1370 NJ 1370 NJ 1370 NJ 1550 NJ 1550 NJ 1550 NJ 1550 7980
+preplace netloc microblaze_0_axi_periph_M08_AXI 1 2 5 NJ 2090 NJ 2300 NJ 2300 NJ 2130 7170
+preplace netloc trigger_logic_AXI_0_PSI46_ATB_DTB 1 6 2 7200 2500 NJ
+preplace netloc trigger_logic_AXI_0_LOGIC_DRS4_CH4 1 6 2 7160 2450 NJ
+preplace netloc proc_sys_reset_1_mb_reset 1 1 3 670 1240 2400 1090 3990
+preplace netloc microblaze_0_interrupt 1 3 1 N
+preplace netloc microblaze_0_dlmb 1 4 3 4530 2260 NJ 1850 NJ
+preplace netloc mig_7series_0_ui_addn_clk_0 1 6 2 7270 1340 8010
+preplace netloc mdm_1_debug_sys_rst 1 0 4 320 1570 NJ 1400 NJ 1630 3900
+preplace netloc proc_sys_reset_1_interconnect_aresetn 1 1 4 680 1420 NJ 1760 NJ 2180 4620
+preplace netloc microblaze_0_m_axi_ic 1 4 1 4580
+preplace netloc microblaze_0_axi_periph_m04_axi 1 2 5 NJ 1620 NJ 1690 NJ 1690 NJ 1690 7150
+preplace netloc trigger_logic_AXI_0_DRS4_TRIG_IN_CH2 1 6 2 7100 2490 NJ
+preplace netloc trigger_logic_AXI_0_LOGIC_PREAMP_TP_SEL 1 6 2 7230 2440 NJ
+preplace netloc microblaze_0_Clk 1 0 8 310 1360 690 1170 2420 1070 4000 1130 4650 1300 5940 1380 7230 1970 7970
+preplace netloc axi_ethernet_0_m_axis_rxd 1 3 5 3910 670 NJ 890 NJ 890 NJ 560 8000
+preplace netloc BEAM_CURRENT_IN_1 1 0 6 NJ 2400 NJ 2400 NJ 2400 NJ 2400 NJ 2400 5810
+preplace netloc axi_mem_intercon_m01_axi 1 5 2 5840 1240 NJ
+preplace netloc axi_ethernet_0_dma_m_axi_s2mm 1 4 1 4550
+preplace netloc microblaze_0_axi_periph_M09_AXI 1 2 4 NJ 1810 NJ 2230 NJ 2230 5890
+preplace netloc microblaze_0_m_axi_dc 1 4 1 4540
+preplace netloc axi_ethernet_0_dma_m_axi_mm2s 1 4 1 4560
+preplace netloc microblaze_0_axi_dp 1 1 4 730 1410 NJ 1750 NJ 2170 4510
+preplace netloc axi_uartlite_0_uart 1 7 1 8060
+preplace netloc clk_wiz_0_locked 1 6 1 7260
+preplace netloc axi_ethernet_0_interrupt 1 1 7 670 690 NJ 690 NJ 690 NJ 910 NJ 910 NJ 580 7980
+preplace netloc FASTOR_TRIG_IN_1 1 0 6 NJ 2370 NJ 2370 NJ 2370 NJ 2370 NJ 2370 5840
+preplace netloc axi_ethernet_0_phy_rst_n 1 7 1 8060
+preplace netloc microblaze_0_axi_periph_m03_axi 1 2 2 2380 1290 NJ
+preplace netloc microblaze_0_axi_periph_M06_AXI 1 2 4 NJ 1800 NJ 2220 NJ 2220 5860
+preplace netloc proc_sys_reset_1_peripheral_aresetn 1 1 6 660 1180 2390 1080 3910 1010 4660 2250 5840 1410 7220
+preplace netloc axi_mem_intercon_m00_axi 1 5 1 5930
+preplace netloc axi_ethernet_0_dma_mm2s_prmry_reset_out_n 1 4 3 NJ 950 NJ 950 7120
+preplace netloc axi_uartlite_0_interrupt 1 1 7 690 1050 NJ 1050 NJ 1050 NJ 1050 NJ 1050 NJ 960 8000
+preplace netloc trigger_logic_AXI_0_PULSER_PREAMP_TP_SEL 1 6 2 N 2480 NJ
+preplace netloc clk_wiz_0_clk_out1 1 1 6 720 2020 NJ 2020 NJ 2240 NJ 2240 5820 1230 7190
+preplace netloc clk_wiz_0_clk_out2 1 1 6 700 2310 NJ 2310 NJ 2310 NJ 2310 5930 1980 7070
+preplace netloc sys_clk_p_1 1 0 7 NJ 2330 NJ 2330 NJ 2330 NJ 2330 NJ 2330 NJ 2330 N
+preplace netloc microblaze_0_axi_periph_M07_AXI 1 2 5 NJ 2080 NJ 2290 NJ 2290 NJ 2120 7130
+preplace netloc axi_ethernet_0_m_axis_rxs 1 3 5 4000 680 NJ 900 NJ 900 NJ 570 7990
+preplace netloc mdm_1_MBDEBUG_0 1 3 1 3910
+preplace netloc microblaze_0_ilmb 1 4 3 4520 2270 NJ 1860 NJ
+preplace netloc microblaze_0_intr 1 2 1 2410
+preplace netloc microblaze_0_axi_periph_M05_AXI 1 2 4 NJ 1790 NJ 2210 NJ 2210 5880
+preplace netloc axi_ethernet_0_dma_s2mm_introut 1 1 4 690 870 NJ 870 NJ 1020 4510
+preplace netloc axi_ethernet_0_dma_mm2s_cntrl_reset_out_n 1 4 3 NJ 960 NJ 960 7140
+preplace netloc sys_clk_n_1 1 0 7 NJ 2360 NJ 2360 NJ 2360 NJ 2360 NJ 2360 NJ 2350 N
+preplace netloc reset_1 1 0 7 NJ 1390 NJ 1380 NJ 1380 NJ 1560 NJ 1560 5810 1420 7250
+preplace netloc rst_clk_wiz_0_125M_peripheral_aresetn 1 1 7 730 2070 NJ 2070 NJ 2280 NJ 2280 5900 2140 NJ 2140 7990
+preplace netloc DIAMOND_TRIG_IN_1 1 0 6 NJ 2380 NJ 2380 NJ 2380 NJ 2380 NJ 2380 5830
+preplace netloc trigger_logic_AXI_0_DRS4_CH3 1 6 2 7250 2510 NJ
+preplace netloc rst_clk_wiz_0_401M_peripheral_aresetn 1 1 7 710 2320 NJ 2320 NJ 2320 NJ 2320 5910 1970 NJ 1800 7970
+levelinfo -pg 1 230 490 2170 3782 4286 5652 6856 7796 8150
+",
+   }
+{
+   da_aeth_cnt: "1",
+}
+{
+   da_axi4_cnt: "9",
+   da_board_cnt: "6",
+}

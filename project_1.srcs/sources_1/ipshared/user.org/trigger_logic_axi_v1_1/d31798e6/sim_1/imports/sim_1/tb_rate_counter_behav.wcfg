@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_frontend_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="lib" />
+            <top_module name="tb_frontend" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="30" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_frontend/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_frontend/coin_enable">
+      <obj_property name="ElementShortName">coin_enable[9:0]</obj_property>
+      <obj_property name="ObjectShortName">coin_enable[9:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_frontend/delay_en">
+      <obj_property name="ElementShortName">delay_en</obj_property>
+      <obj_property name="ObjectShortName">delay_en</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_frontend/trigger_enable">
+      <obj_property name="ElementShortName">trigger_enable</obj_property>
+      <obj_property name="ObjectShortName">trigger_enable</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_frontend/reset_counters">
+      <obj_property name="ElementShortName">reset_counters</obj_property>
+      <obj_property name="ObjectShortName">reset_counters</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_frontend/FASTOR_TRIG_IN">
+      <obj_property name="ElementShortName">FASTOR_TRIG_IN[15:0]</obj_property>
+      <obj_property name="ObjectShortName">FASTOR_TRIG_IN[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_frontend/DIAMOND_TRIG_IN">
+      <obj_property name="ElementShortName">DIAMOND_TRIG_IN[1:0]</obj_property>
+      <obj_property name="ObjectShortName">DIAMOND_TRIG_IN[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_frontend/SCINTILLATOR_TRIG_IN">
+      <obj_property name="ElementShortName">SCINTILLATOR_TRIG_IN[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SCINTILLATOR_TRIG_IN[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_frontend/BEAM_CURRENT_sig">
+      <obj_property name="ElementShortName">BEAM_CURRENT_sig</obj_property>
+      <obj_property name="ObjectShortName">BEAM_CURRENT_sig</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_frontend/delay_in">
+      <obj_property name="ElementShortName">delay_in[9:0][11:0]</obj_property>
+      <obj_property name="ObjectShortName">delay_in[9:0][11:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_frontend/fixed_1HZ_pulse">
+      <obj_property name="ElementShortName">fixed_1HZ_pulse</obj_property>
+      <obj_property name="ObjectShortName">fixed_1HZ_pulse</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_frontend/coincidence_edge_hold">
+      <obj_property name="ElementShortName">coincidence_edge_hold[4:0]</obj_property>
+      <obj_property name="ObjectShortName">coincidence_edge_hold[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_frontend/coincidence_pwidth">
+      <obj_property name="ElementShortName">coincidence_pwidth[4:0]</obj_property>
+      <obj_property name="ObjectShortName">coincidence_pwidth[4:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_frontend/coincidence_out">
+      <obj_property name="ElementShortName">coincidence_out</obj_property>
+      <obj_property name="ObjectShortName">coincidence_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_frontend/coincidence_pulse">
+      <obj_property name="ElementShortName">coincidence_pulse</obj_property>
+      <obj_property name="ObjectShortName">coincidence_pulse</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_frontend/DRS4_CH3">
+      <obj_property name="ElementShortName">DRS4_CH3[1:0]</obj_property>
+      <obj_property name="ObjectShortName">DRS4_CH3[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_frontend/cnt_triggers">
+      <obj_property name="ElementShortName">cnt_triggers[9:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_triggers[9:0][15:0]</obj_property>
+      <obj_property name="Radix">OCTALRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_frontend/coincidence_cnt">
+      <obj_property name="ElementShortName">coincidence_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">coincidence_cnt[15:0]</obj_property>
+      <obj_property name="Radix">OCTALRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_frontend/coincidence_rate">
+      <obj_property name="ElementShortName">coincidence_rate[27:0]</obj_property>
+      <obj_property name="ObjectShortName">coincidence_rate[27:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_frontend/triggers_buf_out">
+      <obj_property name="ElementShortName">triggers_buf_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">triggers_buf_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="other" fp_name="/tb_frontend/triggers">
+      <obj_property name="ElementShortName">triggers</obj_property>
+      <obj_property name="ObjectShortName">triggers</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_frontend/beam_current_cnt">
+      <obj_property name="ElementShortName">beam_current_cnt[27:0]</obj_property>
+      <obj_property name="ObjectShortName">beam_current_cnt[27:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_frontend/uut/u1_coincidence_unit/rc1/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_frontend/uut/u1_coincidence_unit/rc1/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_frontend/uut/u1_coincidence_unit/rc1/sig">
+      <obj_property name="ElementShortName">sig</obj_property>
+      <obj_property name="ObjectShortName">sig</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_frontend/uut/u1_coincidence_unit/rc1/pulse_1HZ">
+      <obj_property name="ElementShortName">pulse_1HZ</obj_property>
+      <obj_property name="ObjectShortName">pulse_1HZ</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_frontend/uut/u1_coincidence_unit/rc1/rate_c">
+      <obj_property name="ElementShortName">rate_c[27:0]</obj_property>
+      <obj_property name="ObjectShortName">rate_c[27:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_frontend/uut/u1_coincidence_unit/rc1/count">
+      <obj_property name="ElementShortName">count[27:0]</obj_property>
+      <obj_property name="ObjectShortName">count[27:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_frontend/uut/u1_coincidence_unit/rc1/clear_c">
+      <obj_property name="ElementShortName">clear_c</obj_property>
+      <obj_property name="ObjectShortName">clear_c</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_frontend/uut/u1_coincidence_unit/rc1/reset_count">
+      <obj_property name="ElementShortName">reset_count</obj_property>
+      <obj_property name="ObjectShortName">reset_count</obj_property>
+   </wvobject>
+</wave_config>

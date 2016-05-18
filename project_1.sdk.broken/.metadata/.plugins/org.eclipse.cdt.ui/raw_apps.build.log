@@ -1,0 +1,14 @@
+10:26:34 **** Incremental Build of configuration Debug for project raw_apps ****
+make all 
+Building target: raw_apps.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -L/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/repo/lwip141_v2_1 -L../../helo_world_bsp/microblaze_0/lib -Wl,-T -Wl,../src/lscript.ld -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "raw_apps.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o   -l-Wl\ --start-group\ -lxil\ -lgcc\ -lc\ --end-group -lxilkernel -l-Wl,--start-group,-lxil,-lgcc,-lc,--end-group -llwip4
+/opt/xilinx/SDK/2015.2/gnu/microblaze/lin/bin/../lib/gcc/microblaze-xilinx-elf/4.9.2/../../../../microblaze-xilinx-elf/bin/ld: cannot find -l-Wl --start-group -lxil -lgcc -lc --end-group
+/opt/xilinx/SDK/2015.2/gnu/microblaze/lin/bin/../lib/gcc/microblaze-xilinx-elf/4.9.2/../../../../microblaze-xilinx-elf/bin/ld: cannot find -lxilkernel
+/opt/xilinx/SDK/2015.2/gnu/microblaze/lin/bin/../lib/gcc/microblaze-xilinx-elf/4.9.2/../../../../microblaze-xilinx-elf/bin/ld: cannot find -l-Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+/opt/xilinx/SDK/2015.2/gnu/microblaze/lin/bin/../lib/gcc/microblaze-xilinx-elf/4.9.2/../../../../microblaze-xilinx-elf/bin/ld: cannot find -llwip4
+collect2: error: ld returned 1 exit status
+make: *** [raw_apps.elf] Error 1
+
+10:26:34 Build Finished (took 129ms)
+

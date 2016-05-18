@@ -1,0 +1,28 @@
+
+extern volatile int rate;
+#include "trigger_logic_axi.h"
+void rate_calc() {
+	static unsigned int old_count;
+	static unsigned int N_count = 0;
+	unsigned int count;
+	count = trigger_logic_wrReg(TRIGGER_LOGIC_AXI_ADR,40);
+
+	// Count for N cycles
+	if (N_count != 1) {
+		N_count++;
+		return;
+	} else {
+		N_count = 0;
+		// Determine the delta for rate calculations
+		unsigned int delta = 0;
+		if (old_count > count) {
+			delta = 0xffff - old_count + count;
+		} else {
+			delta = count - old_count;
+		}
+
+		rate = delta;
+		old_count = count;
+	}
+}
+

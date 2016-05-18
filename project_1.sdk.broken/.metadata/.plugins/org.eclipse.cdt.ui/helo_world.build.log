@@ -1,0 +1,197 @@
+10:27:15 **** Incremental Build of configuration Release for project helo_world ****
+make all 
+Building target: helo_world.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../helo_world_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -o "helo_world.elf"  ./src/dispatch.o ./src/echo.o ./src/http_get_pars.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/pulser.o ./src/rate_calc.o ./src/rxperf.o ./src/stream_readout.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o   -lxilkernel
+./src/echo.o: In function `echo_accept_callback':
+(.text+0x18): undefined reference to `tcp_recv'
+./src/echo.o: In function `echo_accept_callback':
+(.text+0x2c): undefined reference to `tcp_arg'
+./src/echo.o: In function `echo_recv_callback':
+(.text+0x80): undefined reference to `tcp_recved'
+./src/echo.o: In function `echo_recv_callback':
+(.text+0xa0): undefined reference to `pbuf_free'
+./src/echo.o: In function `echo_recv_callback':
+(.text+0xc8): undefined reference to `tcp_write'
+./src/echo.o: In function `echo_recv_callback':
+(.text+0xd8): undefined reference to `tcp_close'
+./src/echo.o: In function `echo_recv_callback':
+(.text+0xe8): undefined reference to `tcp_recv'
+./src/echo.o: In function `start_echo_application':
+(.text+0x158): undefined reference to `tcp_new'
+./src/echo.o: In function `start_echo_application':
+(.text+0x170): undefined reference to `ip_addr_any'
+./src/echo.o: In function `start_echo_application':
+(.text+0x178): undefined reference to `tcp_bind'
+./src/echo.o: In function `start_echo_application':
+(.text+0x190): undefined reference to `tcp_arg'
+./src/echo.o: In function `start_echo_application':
+(.text+0x1a0): undefined reference to `tcp_listen_with_backlog'
+./src/echo.o: In function `start_echo_application':
+(.text+0x1b8): undefined reference to `tcp_accept'
+./src/http_response.o: In function `do_404':
+(.text+0x9c): undefined reference to `tcp_write'
+./src/http_response.o: In function `do_404':
+(.text+0xd4): undefined reference to `tcp_write'
+./src/http_response.o: In function `do_404':
+(.text+0xf0): undefined reference to `tcp_write'
+./src/http_response.o: In function `do_404':
+(.text+0x120): undefined reference to `tcp_write'
+./src/http_response.o: In function `do_virtual_responce':
+(.text+0x21c): undefined reference to `tcp_write'
+./src/http_response.o:(.text+0x25c): more undefined references to `tcp_write' follow
+./src/main.o: In function `main':
+(.text.startup+0xbc): undefined reference to `lwip_init'
+./src/main.o: In function `main':
+(.text.startup+0xe0): undefined reference to `xemac_add'
+./src/main.o: In function `main':
+(.text.startup+0xf0): undefined reference to `netif_set_default'
+./src/main.o: In function `main':
+(.text.startup+0xfc): undefined reference to `netif_set_up'
+./src/main.o: In function `main':
+(.text.startup+0x130): undefined reference to `xemacif_input'
+./src/main.o: In function `main':
+(.text.startup+0x154): undefined reference to `tcp_fasttmr'
+./src/main.o: In function `main':
+(.text.startup+0x180): undefined reference to `tcp_slowtmr'
+./src/platform.o: In function `timer_callback':
+(.text+0x8c): undefined reference to `dhcp_fine_tmr'
+./src/platform.o: In function `timer_callback':
+(.text+0xb0): undefined reference to `dhcp_coarse_tmr'
+./src/prot_malloc.o: In function `prot_mem_malloc':
+(.text+0x1c): undefined reference to `mem_malloc'
+./src/prot_malloc.o: In function `prot_mem_free':
+(.text+0x5c): undefined reference to `mem_free'
+./src/rate_calc.o: In function `rate_calc':
+(.text+0xa8): undefined reference to `prescaler_rate'
+./src/rate_calc.o: In function `rate_calc':
+(.text+0xfc): undefined reference to `prescaler_rate'
+./src/rxperf.o: In function `rxperf_accept_callback':
+(.text+0x28): undefined reference to `tcp_recv'
+./src/rxperf.o: In function `rxperf_recv_callback':
+(.text+0x60): undefined reference to `tcp_recved'
+./src/rxperf.o: In function `rxperf_recv_callback':
+(.text+0x6c): undefined reference to `pbuf_free'
+./src/rxperf.o: In function `rxperf_recv_callback':
+(.text+0x8c): undefined reference to `tcp_close'
+./src/rxperf.o: In function `start_rxperf_application':
+(.text+0xc0): undefined reference to `tcp_new'
+./src/rxperf.o: In function `start_rxperf_application':
+(.text+0xd8): undefined reference to `ip_addr_any'
+./src/rxperf.o: In function `start_rxperf_application':
+(.text+0xe0): undefined reference to `tcp_bind'
+./src/rxperf.o: In function `start_rxperf_application':
+(.text+0xf8): undefined reference to `tcp_arg'
+./src/rxperf.o: In function `start_rxperf_application':
+(.text+0x108): undefined reference to `tcp_listen_with_backlog'
+./src/rxperf.o: In function `start_rxperf_application':
+(.text+0x120): undefined reference to `tcp_accept'
+./src/stream_readout.o: In function `stream_accept_callback':
+(.text+0x1c): undefined reference to `tcp_arg'
+./src/stream_readout.o: In function `stream_accept_callback':
+(.text+0x30): undefined reference to `tcp_recv'
+./src/stream_readout.o: In function `stream_accept_callback':
+(.text+0x44): undefined reference to `tcp_sent'
+./src/stream_readout.o: In function `stream_sent_callback':
+(.text+0x94): undefined reference to `tcp_close'
+./src/stream_readout.o: In function `stream_send_back_readout':
+(.text+0x158): undefined reference to `prescaler_rate'
+./src/stream_readout.o: In function `stream_send_back_readout':
+(.text+0x180): undefined reference to `tcp_write'
+./src/stream_readout.o: In function `stream_recv_callback':
+(.text+0x1e4): undefined reference to `tcp_recved'
+./src/stream_readout.o: In function `stream_recv_callback':
+(.text+0x1f8): undefined reference to `pbuf_free'
+./src/stream_readout.o: In function `stream_recv_callback':
+(.text+0x21c): undefined reference to `pbuf_free'
+./src/stream_readout.o: In function `start_stream_application':
+(.text+0x248): undefined reference to `tcp_new'
+./src/stream_readout.o: In function `start_stream_application':
+(.text+0x260): undefined reference to `ip_addr_any'
+./src/stream_readout.o: In function `start_stream_application':
+(.text+0x268): undefined reference to `tcp_bind'
+./src/stream_readout.o: In function `start_stream_application':
+(.text+0x280): undefined reference to `tcp_arg'
+./src/stream_readout.o: In function `start_stream_application':
+(.text+0x290): undefined reference to `tcp_listen_with_backlog'
+./src/stream_readout.o: In function `start_stream_application':
+(.text+0x2a8): undefined reference to `tcp_accept'
+./src/txperf.o: In function `txperf_sent_callback':
+(.text+0x24): undefined reference to `tcp_write'
+./src/txperf.o: In function `txperf_sent_callback':
+(.text+0x38): undefined reference to `tcp_output'
+./src/txperf.o: In function `txperf_connected_callback':
+(.text+0x108): undefined reference to `tcp_arg'
+./src/txperf.o: In function `txperf_connected_callback':
+(.text+0x11c): undefined reference to `tcp_sent'
+./src/txperf.o: In function `transfer_txperf_data':
+(.text+0x164): undefined reference to `tcp_write'
+./src/txperf.o: In function `transfer_txperf_data':
+(.text+0x178): undefined reference to `tcp_output'
+./src/txperf.o: In function `transfer_txperf_data':
+(.text+0x224): undefined reference to `tcp_write'
+./src/txperf.o: In function `transfer_txperf_data':
+(.text+0x234): undefined reference to `tcp_output'
+./src/txperf.o: In function `start_txperf_application':
+(.text+0x288): undefined reference to `tcp_new'
+./src/txperf.o: In function `start_txperf_application':
+(.text+0x2b4): undefined reference to `tcp_connect'
+./src/urxperf.o: In function `urxperf_recv_callback':
+(.text+0x54): undefined reference to `pbuf_free'
+./src/urxperf.o: In function `start_urxperf_application':
+(.text+0x88): undefined reference to `udp_new'
+./src/urxperf.o: In function `start_urxperf_application':
+(.text+0xa0): undefined reference to `ip_addr_any'
+./src/urxperf.o: In function `start_urxperf_application':
+(.text+0xa8): undefined reference to `udp_bind'
+./src/urxperf.o: In function `start_urxperf_application':
+(.text+0xc8): undefined reference to `udp_recv'
+./src/utxperf.o: In function `transfer_utxperf_data':
+(.text+0x20): undefined reference to `pbuf_alloc'
+./src/utxperf.o: In function `transfer_utxperf_data':
+(.text+0x84): undefined reference to `udp_send'
+./src/utxperf.o: In function `transfer_utxperf_data':
+(.text+0xa0): undefined reference to `pbuf_free'
+./src/utxperf.o: In function `transfer_utxperf_data':
+(.text+0x11c): undefined reference to `pbuf_free'
+./src/utxperf.o: In function `start_utxperf_application':
+(.text+0x13c): undefined reference to `udp_new'
+./src/utxperf.o: In function `start_utxperf_application':
+(.text+0x154): undefined reference to `ip_addr_any'
+./src/utxperf.o: In function `start_utxperf_application':
+(.text+0x15c): undefined reference to `udp_bind'
+./src/utxperf.o: In function `start_utxperf_application':
+(.text+0x180): undefined reference to `udp_connect'
+./src/utxperf.o: In function `start_utxperf_application':
+(.text+0x218): undefined reference to `udp_connect'
+./src/webserver.o: In function `http_recv_callback':
+(.text+0x2c): undefined reference to `tcp_recved'
+./src/webserver.o: In function `http_recv_callback':
+(.text+0x4c): undefined reference to `pbuf_free'
+./src/webserver.o: In function `http_recv_callback':
+(.text+0x70): undefined reference to `pbuf_free'
+./src/webserver.o: In function `http_accept_callback':
+(.text+0xa0): undefined reference to `tcp_arg'
+./src/webserver.o: In function `http_accept_callback':
+(.text+0xb4): undefined reference to `tcp_recv'
+./src/webserver.o: In function `http_accept_callback':
+(.text+0xc8): undefined reference to `tcp_sent'
+./src/webserver.o: In function `http_sent_callback':
+(.text+0x118): undefined reference to `tcp_close'
+./src/webserver.o: In function `start_web_application':
+(.text+0x160): undefined reference to `tcp_new'
+./src/webserver.o: In function `start_web_application':
+(.text+0x178): undefined reference to `ip_addr_any'
+./src/webserver.o: In function `start_web_application':
+(.text+0x180): undefined reference to `tcp_bind'
+./src/webserver.o: In function `start_web_application':
+(.text+0x198): undefined reference to `tcp_arg'
+./src/webserver.o: In function `start_web_application':
+(.text+0x1a8): undefined reference to `tcp_listen_with_backlog'
+./src/webserver.o: In function `start_web_application':
+(.text+0x1c0): undefined reference to `tcp_accept'
+collect2: error: ld returned 1 exit status
+make: *** [helo_world.elf] Error 1
+
+10:27:15 Build Finished (took 129ms)
+

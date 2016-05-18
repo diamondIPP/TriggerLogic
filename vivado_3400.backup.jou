@@ -1,0 +1,318 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Sep 24 16:07:23 2015
+# Process ID: 22817
+# Log file: /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/vivado.log
+# Journal file: /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.xpr
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sim_1/new/tb_quinsident_unit.vhd
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top trigger_logic_AXI [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_quinsident_unit [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config /n/15/moore.1424/xillinx/trigger_logic_axi_io/tb_handshake_unit_behav.wcfg
+source tb_quinsident_unit.tcl
+run 10 us
+restart
+run 10 us
+restart
+run 10 us
+restart
+run 1 us
+save_wave_config {/n/15/moore.1424/xillinx/trigger_logic_axi_io/tb_handshake_unit_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config /n/15/moore.1424/xillinx/trigger_logic_axi_io/tb_handshake_unit_behav.wcfg
+source tb_quinsident_unit.tcl
+add_wave {{/tb_quinsident_unit/uut/Q_int}} 
+restart
+run 1 us
+restart
+run 1 us
+restart
+run 1 us
+restart
+run 1 us
+restart
+run .31 us
+save_wave_config {/n/15/moore.1424/xillinx/trigger_logic_axi_io/tb_handshake_unit_behav.wcfg}
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config /n/15/moore.1424/xillinx/trigger_logic_axi_io/tb_handshake_unit_behav.wcfg
+source tb_quinsident_unit.tcl
+save_wave_config {/n/15/moore.1424/xillinx/trigger_logic_axi_io/tb_handshake_unit_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config /n/15/moore.1424/xillinx/trigger_logic_axi_io/tb_handshake_unit_behav.wcfg
+source tb_quinsident_unit.tcl
+close_sim
+launch_simulation
+open_wave_config /n/15/moore.1424/xillinx/trigger_logic_axi_io/tb_handshake_unit_behav.wcfg
+source tb_quinsident_unit.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+close_project
+open_project /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.xpr
+open_bd_design {/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {design_1_trigger_logic_AXI_0_0 blk_mem_gen_1}]
+report_ip_status -name ip_status 
+generate_target all [get_files  /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/design_1.bd]
+write_hwdef -force  -file /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_project /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.xpr
+ipx::package_project -root_dir /n/15/moore.1424/xillinx/trigger_logic_axi_io -vendor user.org -library user -taxonomy /UserIP
+ipx::open_ipxact_file /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/component.xml
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 5 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs
+current_project project_1
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+current_project trigger_logic_axi_io
+current_project project_1
+upgrade_ip -vlnv user.org:user:trigger_logic_AXI:1.0 [get_ips  design_1_trigger_logic_AXI_0_0]
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+current_project trigger_logic_axi_io
+close_project
+open_hw
+connect_hw_server
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+set_property PROGRAM.FILE {/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+file copy -force /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/impl_1/design_1_wrapper.sysdef /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf
+open_bd_design {/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+open_project /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.xpr
+launch_simulation
+open_wave_config /n/15/moore.1424/xillinx/trigger_logic_axi_io/tb_handshake_unit_behav.wcfg
+source tb_quinsident_unit.tcl
+ipx::open_ipxact_file /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/component.xml
+set_property core_revision 6 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs
+current_project project_1
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+current_project trigger_logic_axi_io
+current_project project_1
+upgrade_ip -vlnv user.org:user:trigger_logic_AXI:1.0 [get_ips  design_1_trigger_logic_AXI_0_0]
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+current_project trigger_logic_axi_io
+current_project project_1
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+current_project trigger_logic_axi_io
+current_project project_1
+upgrade_ip -vlnv user.org:user:trigger_logic_AXI:1.0 [get_ips  design_1_trigger_logic_AXI_0_0]
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+current_project trigger_logic_axi_io
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+open_run impl_1
+current_project project_1
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+current_project trigger_logic_axi_io
+current_project project_1
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+set_property core_revision 7 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project trigger_logic_axi_io
+update_ip_catalog -rebuild -repo_path /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs
+current_project project_1
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv user.org:user:trigger_logic_AXI:1.0 [get_ips  design_1_trigger_logic_AXI_0_0]
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+file copy -force /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/impl_1/design_1_wrapper.sysdef /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf
+current_project trigger_logic_axi_io
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+update_compile_order -fileset sources_1
+set_property core_revision 8 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs
+current_project project_1
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+current_project trigger_logic_axi_io
+current_project project_1
+upgrade_ip -vlnv user.org:user:trigger_logic_AXI:1.0 [get_ips  design_1_trigger_logic_AXI_0_0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+ipx::unload_core /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/component.xml
+current_project trigger_logic_axi_io
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+set_property core_revision 9 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs
+close_sim
+close_project
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+reset_run synth_1 -noclean_dir 
+upgrade_ip -vlnv user.org:user:trigger_logic_AXI:1.0 [get_ips  design_1_trigger_logic_AXI_0_0]
+report_ip_status -name ip_status 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+file copy -force /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/impl_1/design_1_wrapper.sysdef /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf
+open_project /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.xpr
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sim_1/new/tb_pulser.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_pulser_unit [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_pulser [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+open_wave_config /n/15/moore.1424/xillinx/trigger_logic_axi_io/tb_handshake_unit_behav.wcfg
+source tb_pulser.tcl
+restart
+run .31 us
+run 1 s
+save_wave_config {/n/15/moore.1424/xillinx/trigger_logic_axi_io/tb_handshake_unit_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config /n/15/moore.1424/xillinx/trigger_logic_axi_io/tb_handshake_unit_behav.wcfg
+source tb_pulser.tcl
+run 1 ms
+save_wave_config {/n/15/moore.1424/xillinx/trigger_logic_axi_io/tb_handshake_unit_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config /n/15/moore.1424/xillinx/trigger_logic_axi_io/tb_handshake_unit_behav.wcfg
+source tb_pulser.tcl
+run 1 ms
+run 1 ms
+run 1 ms
+close_sim
+launch_simulation
+open_wave_config /n/15/moore.1424/xillinx/trigger_logic_axi_io/tb_handshake_unit_behav.wcfg
+source tb_pulser.tcl
+run 1 ms
+restart
+run 1 ms
+save_wave_config {/n/15/moore.1424/xillinx/trigger_logic_axi_io/tb_handshake_unit_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config /n/15/moore.1424/xillinx/trigger_logic_axi_io/tb_handshake_unit_behav.wcfg
+source tb_pulser.tcl
+run 1 ms
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+ipx::open_ipxact_file /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/component.xml
+set_property core_revision 10 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs
+close_sim

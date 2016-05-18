@@ -1,0 +1,1113 @@
+14:31:37 INFO  : Processing command line option -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+14:31:39 INFO  : Launching XSDB server: xsdb -n -s /opt/xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+14:31:42 INFO  : XSDB server has started successfully.
+15:55:57 INFO  : Successfully generated /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/SW/raw_apps/src/lscript.ld.
+15:55:57 INFO  : Applying linker script to all configurations of project raw_apps.
+15:55:57 INFO  : Setting rebuild state to true for all configurations of project raw_apps.
+16:03:02 INFO  : Launching XSDB server: xsdb -n -s /opt/xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+16:03:03 INFO  : XSDB server has started successfully.
+16:03:04 INFO  : Processing command line option -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+16:03:06 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+16:03:58 ERROR :  [Hsi 55-1594] Core lwip141 of version 2.2 not found in repositories
+16:03:58 ERROR :  [Hsi 55-1594] Core lwip141 of version 2.2 not found in repositories
+16:03:58 ERROR :  [Hsi 55-1594] Core lwip141 of version 2.2 not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 2.2 not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 2.2 not found in repositories
+16:03:58 ERROR :  [Hsi 55-1594] Core lwip141 of version 2.2 not found in repositories
+16:03:58 ERROR :  [Hsi 55-1594] Core lwip141 of version 2.2 not found in repositories
+16:03:58 ERROR :  [Hsi 55-1594] Core lwip141 of version 2.2 not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 2.2 not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 2.2 not found in repositories
+16:04:17 ERROR :  [Hsi 55-1594] Core lwip141 of version 2.2 not found in repositories
+16:04:17 ERROR :  [Hsi 55-1594] Core lwip141 of version 2.2 not found in repositories
+16:04:17 ERROR :  [Hsi 55-1594] Core lwip141 of version 2.2 not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 2.2 not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 2.2 not found in repositories
+16:04:18 ERROR :  [Hsi 55-1594] Core lwip141 of version 2.2 not found in repositories
+16:04:18 ERROR :  [Hsi 55-1594] Core lwip141 of version 2.2 not found in repositories
+16:04:50 ERROR :  [Hsi 55-1594] Core lwip141 of version 2.2 not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 2.2 not found in repositories
+ [Hsi 55-1594] Core lwip141 of version 2.2 not found in repositories
+16:18:26 INFO  : Saving repository preferences.
+16:18:26 INFO  : Reading in cores from local repositories: 
+		 /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/repo/lwip141_v2_1
+16:18:26 INFO  : Cleaning BSP projects in the workspace.
+16:18:45 INFO  : Saving repository preferences.
+16:27:00 INFO  : Successfully generated /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/SW/raw_apps/src/lscript.ld.
+16:27:00 INFO  : Applying linker script to all configurations of project raw_apps.
+16:27:00 INFO  : Setting rebuild state to true for all configurations of project raw_apps.
+09:25:51 INFO  : Launching XSDB server: xsdb -n -s /opt/xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+09:25:56 INFO  : XSDB server has started successfully.
+09:25:57 INFO  : Processing command line option -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+09:26:00 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+09:26:07 INFO  : Restoring local repository preferences: 
+		 /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/repo/lwip141_v2_1
+09:26:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:26:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+09:26:32 INFO  : 'fpga -state' command is executed.
+09:26:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:26:32 INFO  : Context for processor 'microblaze_0' is selected.
+09:26:32 INFO  : Processor reset is completed for 'microblaze_0'.
+09:26:33 INFO  : Context for processor 'microblaze_0' is selected.
+09:26:35 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+09:26:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+09:26:35 INFO  : Context for processor 'microblaze_0' is selected.
+09:26:35 INFO  : 'con' command is executed.
+09:26:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+09:35:39 INFO  : Launching XSDB server: xsdb -n -s /opt/xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+09:35:44 INFO  : Processing command line option -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+09:35:44 INFO  : XSDB server has started successfully.
+09:35:46 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+09:35:51 INFO  : Restoring local repository preferences: 
+		 /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/repo/lwip141_v2_1
+09:44:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:44:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+09:44:05 INFO  : 'fpga -state' command is executed.
+09:44:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:44:05 INFO  : Context for processor 'microblaze_0' is selected.
+09:44:05 INFO  : Processor reset is completed for 'microblaze_0'.
+09:44:06 INFO  : Context for processor 'microblaze_0' is selected.
+09:44:07 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+09:44:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+09:44:08 INFO  : Context for processor 'microblaze_0' is selected.
+09:44:08 INFO  : 'con' command is executed.
+09:44:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+09:46:58 INFO  : Disconnected from the channel tcfchan#1.
+09:47:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:47:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+09:47:27 INFO  : 'fpga -state' command is executed.
+09:47:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:47:27 INFO  : Context for processor 'microblaze_0' is selected.
+09:47:28 INFO  : Processor reset is completed for 'microblaze_0'.
+09:47:28 INFO  : Context for processor 'microblaze_0' is selected.
+09:47:30 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+09:47:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+09:47:30 INFO  : Context for processor 'microblaze_0' is selected.
+09:47:30 INFO  : 'con' command is executed.
+09:47:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+09:50:36 INFO  : Launching XSDB server: xsdb -n -s /opt/xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+09:50:40 INFO  : XSDB server has started successfully.
+09:50:40 INFO  : Processing command line option -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+09:50:44 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+09:50:49 INFO  : Restoring local repository preferences: 
+		 /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/repo/lwip141_v2_1
+09:55:05 INFO  : Launching XSDB server: xsdb -n -s /opt/xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+09:55:08 INFO  : XSDB server has started successfully.
+09:55:09 INFO  : Processing command line option -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+09:55:13 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+09:55:16 INFO  : Restoring local repository preferences: 
+		 /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/repo/lwip141_v2_1
+09:56:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:56:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+09:56:03 INFO  : 'fpga -state' command is executed.
+09:56:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:56:04 INFO  : Context for processor 'microblaze_0' is selected.
+09:56:04 INFO  : Processor reset is completed for 'microblaze_0'.
+09:56:04 INFO  : Context for processor 'microblaze_0' is selected.
+09:56:06 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+09:56:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+09:56:06 INFO  : Context for processor 'microblaze_0' is selected.
+09:56:06 INFO  : 'con' command is executed.
+09:56:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+09:57:04 INFO  : Disconnected from the channel tcfchan#1.
+09:57:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:57:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+09:57:05 INFO  : 'fpga -state' command is executed.
+09:57:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:57:05 INFO  : Context for processor 'microblaze_0' is selected.
+09:57:05 INFO  : Processor reset is completed for 'microblaze_0'.
+09:57:05 INFO  : Context for processor 'microblaze_0' is selected.
+09:57:07 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+09:57:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+09:57:07 INFO  : Context for processor 'microblaze_0' is selected.
+09:57:08 INFO  : 'con' command is executed.
+09:57:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+10:00:48 INFO  : Launching XSDB server: xsdb -n -s /opt/xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+10:00:51 INFO  : XSDB server has started successfully.
+10:00:53 INFO  : Processing command line option -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+10:00:55 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+10:01:01 INFO  : Restoring local repository preferences: 
+		 /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/repo/lwip141_v2_1
+10:02:38 INFO  : Launching XSDB server: xsdb -n -s /opt/xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+10:02:40 INFO  : XSDB server has started successfully.
+10:02:41 INFO  : Processing command line option -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+10:02:43 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+10:02:48 INFO  : Restoring local repository preferences: 
+		 /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/repo/lwip141_v2_1
+10:02:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:02:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+10:02:58 INFO  : 'fpga -state' command is executed.
+10:02:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:02:58 INFO  : Context for processor 'microblaze_0' is selected.
+10:02:58 INFO  : Processor reset is completed for 'microblaze_0'.
+10:02:59 INFO  : Context for processor 'microblaze_0' is selected.
+10:03:01 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+10:03:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+10:03:01 INFO  : Context for processor 'microblaze_0' is selected.
+10:03:01 INFO  : 'con' command is executed.
+10:03:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+10:15:45 INFO  : Launching XSDB server: xsdb -n -s /opt/xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+10:15:48 INFO  : XSDB server has started successfully.
+10:15:49 INFO  : Processing command line option -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+10:15:51 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+10:15:56 INFO  : Restoring local repository preferences: 
+		 /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/repo/lwip141_v2_1
+10:21:02 INFO  : Launching XSDB server: xsdb -n -s /opt/xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+10:21:04 INFO  : XSDB server has started successfully.
+10:21:05 INFO  : Processing command line option -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+10:21:07 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+10:21:11 INFO  : Restoring local repository preferences: 
+		 /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/repo/lwip141_v2_1
+10:21:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:21:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+10:21:33 INFO  : 'fpga -state' command is executed.
+10:21:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:21:33 INFO  : Context for processor 'microblaze_0' is selected.
+10:21:33 INFO  : Processor reset is completed for 'microblaze_0'.
+10:21:34 INFO  : Context for processor 'microblaze_0' is selected.
+10:21:36 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+10:21:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+10:21:36 INFO  : Context for processor 'microblaze_0' is selected.
+10:21:36 INFO  : 'con' command is executed.
+10:21:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+10:42:11 INFO  : Launching XSDB server: xsdb -n -s /opt/xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+10:42:13 INFO  : XSDB server has started successfully.
+10:42:14 INFO  : Processing command line option -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+10:42:16 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+10:42:21 INFO  : Restoring local repository preferences: 
+		 /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/repo/lwip141_v2_1
+10:43:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:43:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+10:43:20 INFO  : 'fpga -state' command is executed.
+10:43:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:43:21 INFO  : Context for processor 'microblaze_0' is selected.
+10:43:21 INFO  : Processor reset is completed for 'microblaze_0'.
+10:43:21 INFO  : Context for processor 'microblaze_0' is selected.
+10:43:23 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+10:43:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+10:43:23 INFO  : Context for processor 'microblaze_0' is selected.
+10:43:23 INFO  : 'con' command is executed.
+10:43:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+10:50:34 INFO  : Launching XSDB server: xsdb -n -s /opt/xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+10:50:36 INFO  : XSDB server has started successfully.
+10:50:38 INFO  : Processing command line option -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+10:50:40 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+10:50:43 INFO  : Restoring local repository preferences: 
+		 /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/repo/lwip141_v2_1
+10:51:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:51:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+10:51:50 INFO  : 'fpga -state' command is executed.
+10:51:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:51:50 INFO  : Context for processor 'microblaze_0' is selected.
+10:51:50 INFO  : Processor reset is completed for 'microblaze_0'.
+10:51:51 INFO  : Context for processor 'microblaze_0' is selected.
+10:51:53 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+10:51:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+10:51:53 INFO  : Context for processor 'microblaze_0' is selected.
+10:51:53 INFO  : 'con' command is executed.
+10:51:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+10:54:09 INFO  : Disconnected from the channel tcfchan#1.
+10:54:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:54:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+10:54:10 INFO  : 'fpga -state' command is executed.
+10:54:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:54:10 INFO  : Context for processor 'microblaze_0' is selected.
+10:54:10 INFO  : Processor reset is completed for 'microblaze_0'.
+10:54:10 INFO  : Context for processor 'microblaze_0' is selected.
+10:54:12 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+10:54:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+10:54:12 INFO  : Context for processor 'microblaze_0' is selected.
+10:54:13 INFO  : 'con' command is executed.
+10:54:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+10:58:18 INFO  : Disconnected from the channel tcfchan#2.
+10:58:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:58:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+10:58:19 INFO  : 'fpga -state' command is executed.
+10:58:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:58:19 INFO  : Context for processor 'microblaze_0' is selected.
+10:58:19 INFO  : Processor reset is completed for 'microblaze_0'.
+10:58:19 INFO  : Context for processor 'microblaze_0' is selected.
+10:58:21 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+10:58:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+10:58:21 INFO  : Context for processor 'microblaze_0' is selected.
+10:58:22 INFO  : 'con' command is executed.
+10:58:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+11:02:29 INFO  : Disconnected from the channel tcfchan#3.
+11:19:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:19:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+11:19:03 INFO  : 'fpga -state' command is executed.
+11:19:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:19:03 ERROR : target list is empty
+11:19:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+----------------End of Script----------------
+
+11:19:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:19:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+11:19:13 INFO  : 'fpga -state' command is executed.
+11:19:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:19:14 ERROR : target list is empty
+11:19:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+----------------End of Script----------------
+
+11:19:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:19:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+11:19:27 INFO  : 'fpga -state' command is executed.
+11:19:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:19:27 ERROR : target list is empty
+11:19:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+----------------End of Script----------------
+
+11:22:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:22:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+11:22:41 INFO  : 'fpga -state' command is executed.
+11:22:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:22:41 ERROR : target list is empty
+11:22:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+----------------End of Script----------------
+
+11:27:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:27:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+11:27:57 ERROR : couldn't open "/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper_hw_platform_0/download.bit": no such file or directory
+11:29:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:29:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+11:29:16 ERROR : couldn't open "/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper_hw_platform_0/download.bit": no such file or directory
+11:33:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:33:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+11:33:54 INFO  : 'fpga -state' command is executed.
+11:33:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:33:54 ERROR : target list is empty
+11:33:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+----------------End of Script----------------
+
+11:34:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:34:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+11:34:20 INFO  : 'fpga -state' command is executed.
+11:34:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:34:20 ERROR : target list is empty
+11:34:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+----------------End of Script----------------
+
+11:35:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:35:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+11:35:08 INFO  : 'fpga -state' command is executed.
+11:35:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:35:08 ERROR : target list is empty
+11:35:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+----------------End of Script----------------
+
+11:35:54 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:36:15 INFO  : Launching XSDB server: xsdb -n -s /opt/xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+11:36:17 INFO  : XSDB server has started successfully.
+11:36:19 INFO  : Processing command line option -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+11:36:21 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+11:36:29 INFO  : Restoring local repository preferences: 
+		 /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/repo/lwip141_v2_1
+11:36:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:36:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+11:36:32 INFO  : 'fpga -state' command is executed.
+11:36:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:36:32 INFO  : Context for processor 'microblaze_0' is selected.
+11:36:32 INFO  : Processor reset is completed for 'microblaze_0'.
+11:36:33 INFO  : Context for processor 'microblaze_0' is selected.
+11:36:34 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+11:36:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+11:36:35 INFO  : Context for processor 'microblaze_0' is selected.
+11:36:35 INFO  : 'con' command is executed.
+11:36:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+11:43:36 INFO  : Disconnected from the channel tcfchan#1.
+11:43:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:43:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+11:43:37 INFO  : 'fpga -state' command is executed.
+11:43:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:43:37 INFO  : Context for processor 'microblaze_0' is selected.
+11:43:37 INFO  : Processor reset is completed for 'microblaze_0'.
+11:43:37 INFO  : Context for processor 'microblaze_0' is selected.
+11:43:39 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+11:43:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+11:43:39 INFO  : Context for processor 'microblaze_0' is selected.
+11:43:39 INFO  : 'con' command is executed.
+11:43:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+11:46:46 INFO  : Disconnected from the channel tcfchan#2.
+11:46:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:46:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+11:46:47 INFO  : 'fpga -state' command is executed.
+11:46:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:46:47 INFO  : Context for processor 'microblaze_0' is selected.
+11:46:47 INFO  : Processor reset is completed for 'microblaze_0'.
+11:46:48 INFO  : Context for processor 'microblaze_0' is selected.
+11:46:49 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+11:46:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+11:46:50 INFO  : Context for processor 'microblaze_0' is selected.
+11:46:50 INFO  : 'con' command is executed.
+11:46:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+11:47:55 INFO  : Disconnected from the channel tcfchan#3.
+11:47:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:47:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+11:47:56 INFO  : 'fpga -state' command is executed.
+11:47:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:47:56 INFO  : Context for processor 'microblaze_0' is selected.
+11:47:56 INFO  : Processor reset is completed for 'microblaze_0'.
+11:47:56 INFO  : Context for processor 'microblaze_0' is selected.
+11:47:58 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+11:47:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+11:47:58 INFO  : Context for processor 'microblaze_0' is selected.
+11:47:58 INFO  : 'con' command is executed.
+11:47:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+11:51:52 INFO  : Disconnected from the channel tcfchan#4.
+11:51:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:51:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+11:51:52 INFO  : 'fpga -state' command is executed.
+11:51:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:51:52 INFO  : Context for processor 'microblaze_0' is selected.
+11:51:52 INFO  : Processor reset is completed for 'microblaze_0'.
+11:51:53 INFO  : Context for processor 'microblaze_0' is selected.
+11:51:55 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+11:51:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+11:51:55 INFO  : Context for processor 'microblaze_0' is selected.
+11:51:55 INFO  : 'con' command is executed.
+11:51:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+12:00:55 INFO  : Disconnected from the channel tcfchan#5.
+12:00:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:00:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+12:00:56 INFO  : 'fpga -state' command is executed.
+12:00:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:00:56 INFO  : Context for processor 'microblaze_0' is selected.
+12:00:56 INFO  : Processor reset is completed for 'microblaze_0'.
+12:00:57 INFO  : Context for processor 'microblaze_0' is selected.
+12:00:58 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+12:00:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+12:00:58 INFO  : Context for processor 'microblaze_0' is selected.
+12:00:59 INFO  : 'con' command is executed.
+12:00:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+12:04:23 INFO  : Disconnected from the channel tcfchan#6.
+12:04:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:04:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+12:04:24 INFO  : 'fpga -state' command is executed.
+12:04:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:04:24 INFO  : Context for processor 'microblaze_0' is selected.
+12:04:24 INFO  : Processor reset is completed for 'microblaze_0'.
+12:04:25 INFO  : Context for processor 'microblaze_0' is selected.
+12:04:26 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+12:04:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+12:04:27 INFO  : Context for processor 'microblaze_0' is selected.
+12:04:27 INFO  : 'con' command is executed.
+12:04:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+12:05:49 INFO  : Disconnected from the channel tcfchan#7.
+12:05:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:05:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+12:05:49 INFO  : 'fpga -state' command is executed.
+12:05:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:05:50 INFO  : Context for processor 'microblaze_0' is selected.
+12:05:50 INFO  : Processor reset is completed for 'microblaze_0'.
+12:05:50 INFO  : Context for processor 'microblaze_0' is selected.
+12:05:52 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+12:05:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+12:05:52 INFO  : Context for processor 'microblaze_0' is selected.
+12:05:52 INFO  : 'con' command is executed.
+12:05:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+12:06:37 INFO  : Disconnected from the channel tcfchan#8.
+12:06:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:06:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+12:06:37 INFO  : 'fpga -state' command is executed.
+12:06:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:06:38 INFO  : Context for processor 'microblaze_0' is selected.
+12:06:38 INFO  : Processor reset is completed for 'microblaze_0'.
+12:06:38 INFO  : Context for processor 'microblaze_0' is selected.
+12:06:40 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+12:06:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+12:06:40 INFO  : Context for processor 'microblaze_0' is selected.
+12:06:40 INFO  : 'con' command is executed.
+12:06:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+12:20:11 INFO  : Disconnected from the channel tcfchan#9.
+12:20:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:20:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+12:20:11 INFO  : 'fpga -state' command is executed.
+12:20:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:20:12 INFO  : Context for processor 'microblaze_0' is selected.
+12:20:12 INFO  : Processor reset is completed for 'microblaze_0'.
+12:20:12 INFO  : Context for processor 'microblaze_0' is selected.
+12:20:14 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+12:20:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+12:20:14 INFO  : Context for processor 'microblaze_0' is selected.
+12:20:14 INFO  : 'con' command is executed.
+12:20:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+14:18:30 INFO  : Disconnected from the channel tcfchan#10.
+14:20:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:20:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+14:20:27 INFO  : 'fpga -state' command is executed.
+14:20:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:20:28 INFO  : Context for processor 'microblaze_0' is selected.
+14:20:28 INFO  : Processor reset is completed for 'microblaze_0'.
+14:20:28 INFO  : Context for processor 'microblaze_0' is selected.
+14:20:30 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+14:20:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+14:20:30 INFO  : Context for processor 'microblaze_0' is selected.
+14:20:30 INFO  : 'con' command is executed.
+14:20:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+14:45:17 WARN  : channel "tcfchan#11" closed
+09:46:33 INFO  : Launching XSDB server: xsdb -n -s /opt/xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+09:46:34 INFO  : XSDB server has started successfully.
+09:46:35 INFO  : Processing command line option -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+09:46:36 INFO  : Restoring local repository preferences: 
+		 /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/repo/lwip141_v2_1
+09:46:36 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+09:46:36 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1443101613000,  Project:1441132076000
+09:46:36 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+09:46:40 INFO  : Copied contents of /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf into /design_1_wrapper_hw_platform_0/system.hdf.
+09:46:43 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+09:46:44 INFO  : 
+09:46:46 INFO  : 
+09:46:47 INFO  : 
+09:46:48 INFO  : Updating hardware inferred compiler options for helo_world.
+09:46:49 INFO  : Updating hardware inferred compiler options for system_test.
+09:46:49 INFO  : Clearing existing target manager status.
+09:48:39 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:48:52 INFO  : Launching XSDB server: xsdb -n -s /opt/xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+09:48:53 INFO  : XSDB server has started successfully.
+09:48:55 INFO  : Processing command line option -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+09:48:56 INFO  : Restoring local repository preferences: 
+		 /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/repo/lwip141_v2_1
+09:48:57 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+09:49:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:49:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+09:49:32 INFO  : 'fpga -state' command is executed.
+09:49:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:49:32 INFO  : Context for processor 'microblaze_0' is selected.
+09:49:32 INFO  : Processor reset is completed for 'microblaze_0'.
+09:49:33 INFO  : Context for processor 'microblaze_0' is selected.
+09:49:35 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+09:49:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+09:49:35 INFO  : Context for processor 'microblaze_0' is selected.
+09:49:35 INFO  : 'con' command is executed.
+09:49:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+09:51:05 INFO  : Disconnected from the channel tcfchan#1.
+09:51:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:51:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+09:51:06 INFO  : 'fpga -state' command is executed.
+09:51:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:51:06 INFO  : Context for processor 'microblaze_0' is selected.
+09:51:06 INFO  : Processor reset is completed for 'microblaze_0'.
+09:51:06 INFO  : Context for processor 'microblaze_0' is selected.
+09:51:08 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+09:51:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+09:51:08 INFO  : Context for processor 'microblaze_0' is selected.
+09:51:08 INFO  : 'con' command is executed.
+09:51:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+09:53:52 INFO  : Disconnected from the channel tcfchan#2.
+09:53:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:53:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+09:53:52 INFO  : 'fpga -state' command is executed.
+09:53:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:53:52 INFO  : Context for processor 'microblaze_0' is selected.
+09:53:52 INFO  : Processor reset is completed for 'microblaze_0'.
+09:53:53 INFO  : Context for processor 'microblaze_0' is selected.
+09:53:55 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+09:53:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+09:53:55 INFO  : Context for processor 'microblaze_0' is selected.
+09:53:55 INFO  : 'con' command is executed.
+09:53:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+10:11:53 INFO  : Disconnected from the channel tcfchan#3.
+10:11:54 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:39:29 INFO  : Launching XSDB server: xsdb -n -s /opt/xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+10:39:30 INFO  : Restoring local repository preferences: 
+		 /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/repo/lwip141_v2_1
+10:39:30 INFO  : XSDB server has started successfully.
+10:39:34 INFO  : Processing command line option -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+10:39:35 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+10:42:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:42:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+10:42:08 INFO  : 'fpga -state' command is executed.
+10:42:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:42:08 INFO  : Context for processor 'microblaze_0' is selected.
+10:42:08 INFO  : Processor reset is completed for 'microblaze_0'.
+10:42:09 INFO  : Context for processor 'microblaze_0' is selected.
+10:42:10 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+10:42:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+10:42:11 INFO  : Context for processor 'microblaze_0' is selected.
+10:42:11 INFO  : 'con' command is executed.
+10:42:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+10:47:58 INFO  : Disconnected from the channel tcfchan#1.
+10:47:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:47:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+10:47:59 INFO  : 'fpga -state' command is executed.
+10:47:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:47:59 INFO  : Context for processor 'microblaze_0' is selected.
+10:47:59 INFO  : Processor reset is completed for 'microblaze_0'.
+10:48:00 INFO  : Context for processor 'microblaze_0' is selected.
+10:48:02 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+10:48:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+10:48:02 INFO  : Context for processor 'microblaze_0' is selected.
+10:48:02 INFO  : 'con' command is executed.
+10:48:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+10:49:33 INFO  : Disconnected from the channel tcfchan#2.
+10:49:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:49:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+10:49:34 INFO  : 'fpga -state' command is executed.
+10:49:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:49:34 INFO  : Context for processor 'microblaze_0' is selected.
+10:49:34 INFO  : Processor reset is completed for 'microblaze_0'.
+10:49:34 INFO  : Context for processor 'microblaze_0' is selected.
+10:49:36 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+10:49:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+10:49:36 INFO  : Context for processor 'microblaze_0' is selected.
+10:49:36 INFO  : 'con' command is executed.
+10:49:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+10:51:12 INFO  : Disconnected from the channel tcfchan#3.
+11:56:50 INFO  : Launching XSDB server: xsdb -n -s /opt/xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+11:56:51 INFO  : XSDB server has started successfully.
+11:56:51 INFO  : Processing command line option -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+11:56:52 INFO  : Restoring local repository preferences: 
+		 /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/repo/lwip141_v2_1
+11:56:53 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+11:56:53 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1443110195000,  Project:1443101613000
+11:56:53 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+11:56:57 INFO  : Copied contents of /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf into /design_1_wrapper_hw_platform_0/system.hdf.
+11:57:00 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:57:11 INFO  : 
+11:57:12 INFO  : 
+11:57:13 INFO  : 
+11:57:18 INFO  : Updating hardware inferred compiler options for helo_world.
+11:57:19 INFO  : Updating hardware inferred compiler options for system_test.
+11:57:19 INFO  : Clearing existing target manager status.
+11:57:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:57:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+11:57:36 INFO  : 'fpga -state' command is executed.
+11:57:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:57:36 INFO  : Context for processor 'microblaze_0' is selected.
+11:57:36 INFO  : Processor reset is completed for 'microblaze_0'.
+11:57:36 INFO  : Context for processor 'microblaze_0' is selected.
+11:57:38 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+11:57:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+11:57:38 INFO  : Context for processor 'microblaze_0' is selected.
+11:57:38 INFO  : 'con' command is executed.
+11:57:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+11:58:42 INFO  : Disconnected from the channel tcfchan#1.
+11:58:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:58:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+11:58:43 INFO  : 'fpga -state' command is executed.
+11:58:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:58:43 INFO  : Context for processor 'microblaze_0' is selected.
+11:58:43 INFO  : Processor reset is completed for 'microblaze_0'.
+11:58:43 INFO  : Context for processor 'microblaze_0' is selected.
+11:58:45 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+11:58:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+11:58:45 INFO  : Disconnected from the channel tcfchan#2.
+11:59:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:59:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+11:59:14 INFO  : 'fpga -state' command is executed.
+11:59:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:59:14 INFO  : Context for processor 'microblaze_0' is selected.
+11:59:15 INFO  : Processor reset is completed for 'microblaze_0'.
+11:59:15 INFO  : Context for processor 'microblaze_0' is selected.
+11:59:17 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+11:59:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+11:59:17 INFO  : Context for processor 'microblaze_0' is selected.
+11:59:17 INFO  : 'con' command is executed.
+11:59:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+12:01:59 INFO  : Disconnected from the channel tcfchan#3.
+12:01:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:02:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+12:02:00 INFO  : 'fpga -state' command is executed.
+12:02:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:02:00 INFO  : Context for processor 'microblaze_0' is selected.
+12:02:00 INFO  : Processor reset is completed for 'microblaze_0'.
+12:02:00 INFO  : Context for processor 'microblaze_0' is selected.
+12:02:02 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+12:02:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+12:02:02 INFO  : Context for processor 'microblaze_0' is selected.
+12:02:02 INFO  : 'con' command is executed.
+12:02:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+12:07:26 INFO  : Disconnected from the channel tcfchan#4.
+12:08:21 ERROR : Unexpected exception occurred.
+java.io.IOException: Command [C 104 xsdb eval \" && jtag_cable_name =~ \"Digilent JTAG-SMT1 210203343...] aborted
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:728)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: Communication channel is closed by remote peer
+	at org.eclipse.tcf.core.AbstractChannel$1$2.run(AbstractChannel.java:305)
+	... 2 more
+12:08:22 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:32:46 INFO  : Launching XSDB server: xsdb -n -s /opt/xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+12:32:47 INFO  : XSDB server has started successfully.
+12:32:48 INFO  : Processing command line option -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+12:32:49 INFO  : Restoring local repository preferences: 
+		 /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/repo/lwip141_v2_1
+12:32:50 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:32:50 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1443112138000,  Project:1443110195000
+12:32:50 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf.
+12:32:58 INFO  : Copied contents of /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf into /design_1_wrapper_hw_platform_0/system.hdf.
+12:33:11 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:33:13 INFO  : 
+12:33:14 INFO  : 
+12:33:16 INFO  : 
+12:33:17 INFO  : Updating hardware inferred compiler options for helo_world.
+12:33:17 INFO  : Updating hardware inferred compiler options for system_test.
+12:33:17 INFO  : Clearing existing target manager status.
+12:33:21 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+12:33:30 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+12:34:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:34:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+12:34:16 INFO  : 'fpga -state' command is executed.
+12:34:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:34:16 INFO  : Context for processor 'microblaze_0' is selected.
+12:34:16 INFO  : Processor reset is completed for 'microblaze_0'.
+12:34:17 INFO  : Context for processor 'microblaze_0' is selected.
+12:34:19 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+12:34:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+12:34:19 INFO  : Context for processor 'microblaze_0' is selected.
+12:34:19 INFO  : 'con' command is executed.
+12:34:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+12:40:49 INFO  : Disconnected from the channel tcfchan#1.
+12:40:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:40:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+12:40:50 INFO  : 'fpga -state' command is executed.
+12:40:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:40:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+12:42:28 INFO  : Disconnected from the channel tcfchan#2.
+12:42:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:42:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+12:42:28 INFO  : 'fpga -state' command is executed.
+12:42:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:42:29 INFO  : Context for processor 'microblaze_0' is selected.
+12:42:29 INFO  : Processor reset is completed for 'microblaze_0'.
+12:42:29 INFO  : Context for processor 'microblaze_0' is selected.
+12:42:31 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+12:42:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+12:42:31 INFO  : Context for processor 'microblaze_0' is selected.
+12:42:31 INFO  : 'con' command is executed.
+12:42:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+12:47:11 INFO  : Disconnected from the channel tcfchan#3.
+12:47:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:47:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+12:47:11 INFO  : 'fpga -state' command is executed.
+12:47:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:47:12 INFO  : Context for processor 'microblaze_0' is selected.
+12:47:12 INFO  : Processor reset is completed for 'microblaze_0'.
+12:47:12 INFO  : Context for processor 'microblaze_0' is selected.
+12:47:14 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+12:47:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+12:47:14 INFO  : Context for processor 'microblaze_0' is selected.
+12:47:14 INFO  : 'con' command is executed.
+12:47:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+
+12:59:05 INFO  : Disconnected from the channel tcfchan#4.
+12:59:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:59:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A" && level==0} -index 0' command is executed.
+12:59:05 INFO  : 'fpga -state' command is executed.
+12:59:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:59:06 INFO  : Context for processor 'microblaze_0' is selected.
+12:59:06 INFO  : Processor reset is completed for 'microblaze_0'.
+12:59:06 INFO  : Context for processor 'microblaze_0' is selected.
+12:59:08 INFO  : The application '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf' is downloaded to processor 'microblaze_0'.
+12:59:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+dow /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/helo_world.elf
+----------------End of Script----------------
+
+12:59:08 INFO  : Context for processor 'microblaze_0' is selected.
+12:59:08 INFO  : 'con' command is executed.
+12:59:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203343119A"} -index 0
+con
+----------------End of Script----------------
+

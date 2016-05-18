@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Dec 17 12:07:53 2015
+# Process ID: 7950
+# Log file: /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/vivado.log
+# Journal file: /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/trigger_logic_axi_io'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/pulse_gen_axi'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/axi_real_time_clock'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:45 ; elapsed = 00:00:23 . Memory (MB): peak = 6042.098 ; gain = 266.238 ; free physical = 793 ; free virtual = 23308
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203343119A
+ERROR: [Labtools 27-3133] Error while setting target JTAG Clock Frequency.
+open_hw_target {localhost/xilinx_tcf/Digilent/210203343119A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203343119A
+ERROR: [Labtools 27-3133] Error while setting target JTAG Clock Frequency.
+open_hw_target {localhost/xilinx_tcf/Digilent/210203343119A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203343119A
+ERROR: [Labtools 27-3133] Error while setting target JTAG Clock Frequency.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 17 12:12:31 2015...

@@ -1,0 +1,23 @@
+/*
+ * pulser.c
+ *
+ *  Created on: Sep 9, 2015
+ *      Author: moore.1424
+ */
+#include  "trigger_logic_axi.h"
+#define TRIGGER_LOGIC_AXI_ADR 0x44A00000
+
+double set_frequ(double freq, double duty_cycle)
+{
+	double n = 97905.2734375000/ freq * 256;
+	/* clk frequency (401.02 MHz) is scaled down so the pulse generator counts every fclk/2^12
+	 *  Hz is the pulse generator resoluton
+	 */
+	int n_int = (int) n;
+	int d = (int)(n * duty_cycle);
+	trigger_logic_wrReg(TRIGGER_LOGIC_AXI_ADR,TRIGGER_LOGIC_PULSER_DIVISOR,n_int);
+	trigger_logic_wrReg(TRIGGER_LOGIC_AXI_ADR,TRIGGER_LOGIC_PULSER_DUTY,d);
+	if(freq>97910 || freq< 0.093375 ) //out of range
+		return -1;
+	return 97905.2734375000 / n_int*256;
+}

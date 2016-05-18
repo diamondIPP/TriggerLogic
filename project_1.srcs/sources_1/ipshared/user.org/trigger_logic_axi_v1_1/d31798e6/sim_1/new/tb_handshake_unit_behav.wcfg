@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_prescalel_unit_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_prescalel_unit" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_prescalel_unit/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_prescalel_unit/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_prescalel_unit/scaler">
+      <obj_property name="ElementShortName">scaler[9:0]</obj_property>
+      <obj_property name="ObjectShortName">scaler[9:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_prescalel_unit/sig_in">
+      <obj_property name="ElementShortName">sig_in</obj_property>
+      <obj_property name="ObjectShortName">sig_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_prescalel_unit/sig_out">
+      <obj_property name="ElementShortName">sig_out</obj_property>
+      <obj_property name="ObjectShortName">sig_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_prescalel_unit/uut/count">
+      <obj_property name="ElementShortName">count[9:0]</obj_property>
+      <obj_property name="ObjectShortName">count[9:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_prescalel_unit/uut/scaler">
+      <obj_property name="ElementShortName">scaler[9:0]</obj_property>
+      <obj_property name="ObjectShortName">scaler[9:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb_prescalel_unit/uut/count">
+      <obj_property name="ElementShortName">count[9:0]</obj_property>
+      <obj_property name="ObjectShortName">count[9:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_prescalel_unit/uut/coincidence">
+      <obj_property name="ElementShortName">coincidence</obj_property>
+      <obj_property name="ObjectShortName">coincidence</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb_prescalel_unit/uut/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+</wave_config>

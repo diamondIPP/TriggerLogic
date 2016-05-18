@@ -1,0 +1,242 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Jan 15 17:32:45 2016
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_phase_shift_40MHz_clk_gen_axi_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_phase_shift_40MHz_clk_gen_axi_0_1 (user.org:user:phase_shift_40MHz_clk_gen_axi:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Jan  8 17:41:17 2016
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_phase_shift_40MHz_clk_gen_axi_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_phase_shift_40MHz_clk_gen_axi_0_1 (user.org:user:phase_shift_40MHz_clk_gen_axi:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Jan  8 16:35:16 2016
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_phase_shift_40MHz_clk_gen_axi_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_phase_shift_40MHz_clk_gen_axi_0_1 (user.org:user:phase_shift_40MHz_clk_gen_axi:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Jan  8 12:20:45 2016
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_phase_shift_40MHz_clk_gen_axi_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_phase_shift_40MHz_clk_gen_axi_0_1 (user.org:user:phase_shift_40MHz_clk_gen_axi:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu Jan  7 14:08:24 2016
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_phase_shift_40MHz_clk_gen_axi_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_phase_shift_40MHz_clk_gen_axi_0_1 (user.org:user:phase_shift_40MHz_clk_gen_axi:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Tue Jan  5 17:59:15 2016
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_phase_shift_40MHz_clk_gen_axi_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_phase_shift_40MHz_clk_gen_axi_0_1 (user.org:user:phase_shift_40MHz_clk_gen_axi:1.0) from (Rev. 9) to (Rev. 10)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'design_1_phase_shift_40MHz_clk_gen_axi_0_1'. These changes may impact your design.
+
+
+-upgraded port 'CLK_0' width 1 differs from original width 2
+-upgraded port 'CLK_1' width 1 differs from original width 2
+-upgraded port 'CLK_2' width 1 differs from original width 2
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Tue Jan  5 17:41:10 2016
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_phase_shift_40MHz_clk_gen_axi_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_phase_shift_40MHz_clk_gen_axi_0_1 (user.org:user:phase_shift_40MHz_clk_gen_axi:1.0) from (Rev. 7) to (Rev. 9)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'design_1_phase_shift_40MHz_clk_gen_axi_0_1'. These changes may impact your design.
+
+
+-upgrade has renamed port 'clk_0' as 'CLK_0'
+-upgrade has renamed port 'clk_1' as 'CLK_1'
+-upgrade has renamed port 'clk_2' as 'CLK_2'
+-upgraded port order differs after port 'CLK_0'
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Dec 30 13:16:47 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_phase_shift_40MHz_clk_gen_axi_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_phase_shift_40MHz_clk_gen_axi_0_1 (user.org:user:phase_shift_40MHz_clk_gen_axi:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Dec 23 12:56:14 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_phase_shift_40MHz_clk_gen_axi_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_phase_shift_40MHz_clk_gen_axi_0_1 (user.org:user:phase_shift_40MHz_clk_gen_axi:1.0) from (Rev. 5) to (Rev. 6)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'design_1_phase_shift_40MHz_clk_gen_axi_0_1'. These changes may impact your design.
+
+
+-upgraded port 'clk_0' width 2 differs from original width 1
+-upgraded port 'clk_1' width 2 differs from original width 1
+-upgraded port 'clk_2' width 2 differs from original width 1
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Dec 23 11:42:08 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_phase_shift_40MHz_clk_gen_axi_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_phase_shift_40MHz_clk_gen_axi_0_1 (user.org:user:phase_shift_40MHz_clk_gen_axi:1.0) from (Rev. 4) to (Rev. 5)
+

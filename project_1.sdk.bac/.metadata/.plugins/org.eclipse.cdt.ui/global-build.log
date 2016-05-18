@@ -1,0 +1,97 @@
+10:47:02 **** Incremental Build of configuration Debug for project helo_world ****
+make all 
+Building target: helo_world.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../helo_world_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -o "helo_world.elf"  ./src/dispatch.o ./src/echo.o ./src/helloworld.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o   -lxilkernel -llwip4
+./src/dispatch.o: In function `print_headers':
+/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/../src/dispatch.c:46: undefined reference to `print_tftp_app_header'
+./src/dispatch.o: In function `start_applications':
+/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/../src/dispatch.c:62: undefined reference to `start_tftp_application'
+./src/dispatch.o: In function `transfer_data':
+/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/../src/dispatch.c:76: undefined reference to `transfer_tftp_data'
+collect2: error: ld returned 1 exit status
+make: *** [helo_world.elf] Error 1
+10:47:20 **** Auto Build of configuration Debug for project helo_world ****
+make all 
+Building file: ../src/dispatch.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dispatch.o" -D __XMK__ -I../../helo_world_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -MMD -MP -MF"src/dispatch.d" -MT"src/dispatch.d" -o "src/dispatch.o" "../src/dispatch.c"
+../src/dispatch.c: In function 'start_applications':
+../src/dispatch.c:60:9: warning: implicit declaration of function 'start_tftp_application' [-Wimplicit-function-declaration]
+         start_tftp_application();
+         ^
+../src/dispatch.c: In function 'transfer_data':
+../src/dispatch.c:74:9: warning: implicit declaration of function 'transfer_tftp_data' [-Wimplicit-function-declaration]
+         transfer_tftp_data();
+         ^
+Finished building: ../src/dispatch.c
+ 
+Building target: helo_world.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../helo_world_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -o "helo_world.elf"  ./src/dispatch.o ./src/echo.o ./src/helloworld.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o   -lxilkernel -llwip4
+./src/dispatch.o: In function `start_applications':
+/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/../src/dispatch.c:60: undefined reference to `start_tftp_application'
+./src/dispatch.o: In function `transfer_data':
+/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/Debug/../src/dispatch.c:74: undefined reference to `transfer_tftp_data'
+collect2: error: ld returned 1 exit status
+make: *** [helo_world.elf] Error 1
+10:47:35 **** Auto Build of configuration Debug for project helo_world ****
+make all 
+Building file: ../src/dispatch.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dispatch.o" -D __XMK__ -I../../helo_world_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -MMD -MP -MF"src/dispatch.d" -MT"src/dispatch.d" -o "src/dispatch.o" "../src/dispatch.c"
+Finished building: ../src/dispatch.c
+ 
+Building target: helo_world.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../helo_world_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -o "helo_world.elf"  ./src/dispatch.o ./src/echo.o ./src/helloworld.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o   -lxilkernel -llwip4
+Finished building target: helo_world.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size helo_world.elf  |tee "helo_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 189892	   1928	2187484	2379304	 244e28	helo_world.elf
+Finished building: helo_world.elf.size
+ 
+10:47:44 **** Auto Build of configuration Debug for project helo_world ****
+make all 
+Building file: ../src/dispatch.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dispatch.o" -D __XMK__ -I../../helo_world_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -MMD -MP -MF"src/dispatch.d" -MT"src/dispatch.d" -o "src/dispatch.o" "../src/dispatch.c"
+Finished building: ../src/dispatch.c
+ 
+Building target: helo_world.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../helo_world_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -o "helo_world.elf"  ./src/dispatch.o ./src/echo.o ./src/helloworld.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o   -lxilkernel -llwip4
+Finished building target: helo_world.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size helo_world.elf  |tee "helo_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 189892	   1928	2187484	2379304	 244e28	helo_world.elf
+Finished building: helo_world.elf.size
+ 
+10:47:56 **** Incremental Build of configuration Debug for project helo_world ****
+make all 
+make: Nothing to be done for `all'.
+10:49:29 **** Auto Build of configuration Debug for project helo_world ****
+make all 
+Building file: ../src/main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -D __XMK__ -I../../helo_world_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: helo_world.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../helo_world_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -o "helo_world.elf"  ./src/dispatch.o ./src/echo.o ./src/helloworld.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o   -lxilkernel -llwip4
+Finished building target: helo_world.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size helo_world.elf  |tee "helo_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 189892	   1928	2187484	2379304	 244e28	helo_world.elf
+Finished building: helo_world.elf.size
+ 
+10:49:31 **** Incremental Build of configuration Debug for project helo_world ****
+make all 
+make: Nothing to be done for `all'.

@@ -1,0 +1,27 @@
+
+int rate_calc(uint16_t count) {
+	static uint16_t old_count;
+	static unsigned int N_count = 0;
+	unsigned int rate = -1;
+
+	// Count for N cycles
+	if (N_count < 4) {
+		N_count++;
+		return;
+	} else {
+		N_count = 0;
+		
+		// Determine the delta for rate calculations
+		unsigned int delta = 0;
+		if (old_count > count) {
+			delta = 0xffff - old_count + count;
+		} else {
+			delta = count - old_count;
+		}
+
+		rate = delta;
+		old_count = count;
+	}
+	return rate;
+}
+

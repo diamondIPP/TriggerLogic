@@ -1,0 +1,869 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Oct  8 10:22:51 2015
+# Process ID: 25629
+# Log file: /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/src/vivado.log
+# Journal file: /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/helo_world/src/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/trigger_logic_axi_io'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/pulse_gen_axi'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/axi_real_time_clock'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:39 ; elapsed = 00:00:18 . Memory (MB): peak = 6027.805 ; gain = 236.570 ; free physical = 5605 ; free virtual = 31095
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203343119A
+set_property PROGRAM.FILE {/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 6073.238 ; gain = 0.000 ; free physical = 5588 ; free virtual = 31079
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+launch_sdk -workspace /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Thu Oct  8 11:11:27 2015. For additional details about this file, please refer to the WebTalk help file at /opt/xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Oct  8 11:11:27 2015...
+open_project /data1/jmoore/trigger_logic_hw_test/trigger_logic_axi_io.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/data1/jmoore/trigger_logic_hw_test/trigger_logic_axi_io.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/ip_repo/myip_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:06 . Memory (MB): peak = 6130.621 ; gain = 5.215 ; free physical = 5044 ; free virtual = 30535
+current_project project_1
+close_project
+close_project
+open_project /n/15/moore.1424/xillinx/axi_real_time_clock/axi_real_time_clock.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/axi_real_time_clock/axi_real_time_clock.srcs/sources_1'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/xilinx/Vivado/2015.2/data/ip'.
+set_property -dict [list CONFIG.Final_Count_Value {1E846} CONFIG.Threshold_Value {1E846}] [get_ips real_time_1ms_from_125MHz_counter_0]
+generate_target all [get_files  /n/15/moore.1424/xillinx/axi_real_time_clock/axi_real_time_clock.srcs/sources_1/ip/real_time_1ms_from_125MHz_counter_0/real_time_1ms_from_125MHz_counter_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'real_time_1ms_from_125MHz_counter_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'real_time_1ms_from_125MHz_counter_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'real_time_1ms_from_125MHz_counter_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'real_time_1ms_from_125MHz_counter_0'...
+reset_run real_time_1ms_from_125MHz_counter_0_synth_1
+launch_run -jobs 2 real_time_1ms_from_125MHz_counter_0_synth_1
+[Thu Oct  8 11:21:18 2015] Launched real_time_1ms_from_125MHz_counter_0_synth_1...
+Run output will be captured here: /n/15/moore.1424/xillinx/axi_real_time_clock/axi_real_time_clock.runs/real_time_1ms_from_125MHz_counter_0_synth_1/runme.log
+set_property -dict [list CONFIG.Final_Count_Value {1E848} CONFIG.Threshold_Value {1E848}] [get_ips real_time_1ms_from_125MHz_counter_0]
+generate_target all [get_files  /n/15/moore.1424/xillinx/axi_real_time_clock/axi_real_time_clock.srcs/sources_1/ip/real_time_1ms_from_125MHz_counter_0/real_time_1ms_from_125MHz_counter_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'real_time_1ms_from_125MHz_counter_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'real_time_1ms_from_125MHz_counter_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'real_time_1ms_from_125MHz_counter_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'real_time_1ms_from_125MHz_counter_0'...
+reset_run real_time_1ms_from_125MHz_counter_0_synth_1
+launch_run -jobs 2 real_time_1ms_from_125MHz_counter_0_synth_1
+[Thu Oct  8 11:23:21 2015] Launched real_time_1ms_from_125MHz_counter_0_synth_1...
+Run output will be captured here: /n/15/moore.1424/xillinx/axi_real_time_clock/axi_real_time_clock.runs/real_time_1ms_from_125MHz_counter_0_synth_1/runme.log
+ipx::open_ipxact_file /n/15/moore.1424/xillinx/axi_real_time_clock/axi_real_time_clock.srcs/sources_1/component.xml
+WARNING: [IP_Flow 19-4308] Project file '/n/15/moore.1424/xillinx/axi_real_time_clock/axi_real_time_clock.srcs/sim_1/imports/sim_1/tb_clk_behav.wcfg' is not found in the component files. Please add the packaging file if necessary.
+set_property core_revision 5 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path /n/15/moore.1424/xillinx/axi_real_time_clock/axi_real_time_clock.srcs/sources_1
+INFO: [IP_Flow 19-725] Reloaded user IP repository '/n/15/moore.1424/xillinx/axi_real_time_clock/axi_real_time_clock.srcs/sources_1'
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core /n/15/moore.1424/xillinx/axi_real_time_clock/axi_real_time_clock.srcs/sources_1/user.org_user_real_time_clock_v1_0_S00_AXI_1.0.zip [ipx::current_core]
+ipx::remove_file_group xilinx_testbench [ipx::current_core]
+set_property core_revision 6 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path /n/15/moore.1424/xillinx/axi_real_time_clock/axi_real_time_clock.srcs/sources_1
+INFO: [IP_Flow 19-725] Reloaded user IP repository '/n/15/moore.1424/xillinx/axi_real_time_clock/axi_real_time_clock.srcs/sources_1'
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core /n/15/moore.1424/xillinx/axi_real_time_clock/axi_real_time_clock.srcs/sources_1/user.org_user_real_time_clock_v1_0_S00_AXI_1.0.zip [ipx::current_core]
+close_project
+open_project /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/ip_repo/myip_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/xilinx/Vivado/2015.2/data/ip'.
+ipx::open_ipxact_file /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/component.xml
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/new/rate_counter.vhd'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/new/fixed_1Hz_pulse_gen.vhd'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/new/rate_counters.vhd'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/new/test_mux.vhd'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/imports/moore.1424/xillinx/trigger_logic_ac701/trigger_logic_ac701.srcs/sources_1/new/all_input_delays.v'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/imports/moore.1424/xillinx/trigger_logic_ac701/trigger_logic_ac701.srcs/sources_1/new/varable_delays.vhd'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/new/mux_10_to_2.vhd'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/imports/tmp/pulse_gen_ripple.vhd'.
+set_property core_revision 25 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs
+INFO: [IP_Flow 19-725] Reloaded user IP repository '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs'
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/user.org_user_trigger_logic_AXI_1.1.zip [ipx::current_core]
+close_project
+open_project /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/trigger_logic_axi_io'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/pulse_gen_axi'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/axi_real_time_clock'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/xilinx/Vivado/2015.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_real_time_clock_v1_0_S00_AXI_0_0
+design_1_trigger_logic_AXI_0_0
+
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 6181.938 ; gain = 35.914 ; free physical = 4977 ; free virtual = 30467
+close_project
+open_project /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/ip_repo/myip_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/xilinx/Vivado/2015.2/data/ip'.
+close_project
+open_project /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/trigger_logic_axi_io'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/pulse_gen_axi'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/axi_real_time_clock'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/xilinx/Vivado/2015.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_real_time_clock_v1_0_S00_AXI_0_0
+design_1_trigger_logic_AXI_0_0
+
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 6228.652 ; gain = 26.066 ; free physical = 4906 ; free virtual = 30397
+open_bd_design {/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_0
+Adding component instance block -- xilinx.com:ip:axi_ethernet:7.0 - axi_ethernet_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_ethernet_0_dma
+Adding component instance block -- xilinx.com:ip:axi_timer:2.0 - axi_timer_0
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.2 - blk_mem_gen_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:5.1 - clk_wiz_0
+Adding component instance block -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding component instance block -- xilinx.com:ip:microblaze:9.5 - microblaze_0
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - microblaze_0_axi_intc
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - microblaze_0_xlconcat
+Adding component instance block -- xilinx.com:ip:mig_7series:2.3 - mig_7series_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_1
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_0_401M
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_0_125M
+Adding component instance block -- user.org:user:trigger_logic_AXI:1.1 - trigger_logic_AXI_0
+Adding component instance block -- user.org:user:real_time_clock_v1_0_S00_AXI:1.0 - real_time_clock_v1_0_S00_AXI_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding component instance block -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_data_fifo:2.1 - s04_data_fifo
+Adding component instance block -- xilinx.com:ip:axi_data_fifo:2.1 - s03_data_fifo
+Adding component instance block -- xilinx.com:ip:axi_data_fifo:2.1 - s02_data_fifo
+Adding component instance block -- xilinx.com:ip:axi_data_fifo:2.1 - s01_data_fifo
+Adding component instance block -- xilinx.com:ip:axi_data_fifo:2.1 - s00_data_fifo
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.2 - lmb_bram
+Successfully read diagram <design_1> from BD file </data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 6324.234 ; gain = 91.125 ; free physical = 4797 ; free virtual = 30287
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {design_1_real_time_clock_v1_0_S00_AXI_0_0 design_1_trigger_logic_AXI_0_0}]
+Upgrading '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3422] Upgraded design_1_real_time_clock_v1_0_S00_AXI_0_0 (real_time_clock_v1_0_S00_AXI_v1_0 1.0) from revision 4 to revision 6
+INFO: [IP_Flow 19-3471] Wrote upgrade log to '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/ip/design_1_real_time_clock_v1_0_S00_AXI_0_0/design_1_real_time_clock_v1_0_S00_AXI_0_0.upgrade_log'.
+INFO: [IP_Flow 19-3422] Upgraded design_1_trigger_logic_AXI_0_0 (trigger_logic_AXI_v1_1 1.1) from revision 24 to revision 25
+INFO: [IP_Flow 19-3471] Wrote upgrade log to '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/ip/design_1_trigger_logic_AXI_0_0/design_1_trigger_logic_AXI_0_0.upgrade_log'.
+Wrote  : </data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/design_1.bd> 
+upgrade_ip: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 6337.758 ; gain = 12.520 ; free physical = 4836 ; free virtual = 30274
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+Adding component instance block -- xilinx.com:ip:axi_ethernet_buffer:2.0 - eth_buf
+Adding component instance block -- xilinx.com:ip:tri_mode_ethernet_mac:9.0 - eth_mac
+Successfully read diagram <bd_0> from BD file </data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_0/bd_0/bd_0.bd>
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+WARNING: [xilinx.com:ip:microblaze:9.5-14] /microblaze_0: The D-cache cacheable segment 0x80000000 - 0xBFFFFFFF does not include the M_AXI_DC segment 0xC0000000-0xC0000FFF, which prevents this M_AXI_DC segment from being accessed by the cache. To resolve this issue change user assigned parameters C_DCACHE_BASEADDR and C_DCACHE_HIGHADDR, or modify the address map.
+WARNING: [xilinx.com:ip:microblaze:9.5-14] /microblaze_0: The I-cache cacheable segment 0x80000000 - 0xBFFFFFFF does not include the M_AXI_IC segment 0xC0000000-0xC0000FFF, which prevents this M_AXI_IC segment from being accessed by the cache. To resolve this issue change user assigned parameters C_ICACHE_BASEADDR and C_ICACHE_HIGHADDR, or modify the address map.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to net 'axi_bram_ctrl_0_bram_porta_ADDR'(12) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/addrb'(32) to net 'axi_bram_ctrl_0_bram_portb_ADDR'(12) - Only lower order bits will be connected.
+VHDL Output written to : /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/hdl/design_1.vhd
+VHDL Output written to : /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+Wrote  : </data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/design_1.bd> 
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_microblaze_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_mig_7series_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'design_1_mig_7series_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_dlmb_v10_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_ilmb_v10_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_dlmb_bram_if_cntlr_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_ilmb_bram_if_cntlr_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_lmb_bram_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_microblaze_0_axi_intc_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_microblaze_0_xlconcat_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_mdm_1_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_proc_sys_reset_1_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'design_1_proc_sys_reset_1_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_1 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_axi_timer_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_axi_uartlite_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'design_1_axi_uartlite_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_axi_bram_ctrl_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_blk_mem_gen_0_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_axi_ethernet_0_0'...
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+VHDL Output written to : /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_0/bd_0/hdl/bd_0.vhd
+VHDL Output written to : /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_0/bd_0/hdl/bd_0_wrapper.vhd
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_axi_ethernet_0_0/bd_0/bd_0_eth_buf_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'design_1_axi_ethernet_0_0/bd_0/bd_0_eth_buf_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block eth_buf .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_axi_ethernet_0_0/bd_0/bd_0_eth_mac_0'...
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Hardware_Evaluation license.
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Hardware_Evaluation license.
+WARNING: [IP_Flow 19-650] IP license key 'tri_mode_eth_mac@2015.04' is enabled with a Hardware_Evaluation license.
+WARNING: [IP_Flow 19-650] IP license key 'tri_mode_eth_mac@2015.04' is enabled with a Hardware_Evaluation license.
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'design_1_axi_ethernet_0_0/bd_0/bd_0_eth_mac_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block eth_mac .
+INFO: [BD 41-1379] This design does not contain any processor.
+Exporting to file /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_0/bd_0/hw_handoff/design_1_axi_ethernet_0_0.hwh
+Generated Block Design Tcl file /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_0/bd_0/hw_handoff/design_1_axi_ethernet_0_0_bd.tcl
+Generated Hardware Definition File /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_0/bd_0/hdl/design_1_axi_ethernet_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_axi_ethernet_0_dma_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0_dma .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_clk_wiz_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'design_1_clk_wiz_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_xbar_1'...
+WARNING: [IP_Flow 19-1687] The current project language is set to VHDL. However IP 'design_1_xbar_1' does not support 'VHDL Synthesis' output products, delivering 'Verilog Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_xbar_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to VHDL. However IP 'design_1_xbar_0' does not support 'VHDL Synthesis' output products, delivering 'Verilog Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/c_counter_binary_3'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/prescaler_counter_binary_3'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/c_counter_binary_2'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/c_counter_binary_1'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/c_counter_binary_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/blk_mem_gen_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block trigger_logic_AXI_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_rst_clk_wiz_0_401M_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'design_1_rst_clk_wiz_0_401M_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_0_401M .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_rst_clk_wiz_0_125M_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'design_1_rst_clk_wiz_0_125M_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_0_125M .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_real_time_clock_v1_0_S00_AXI_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_real_time_clock_v1_0_S00_AXI_0_0/real_time_1ms_from_125MHz_counter_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_real_time_clock_v1_0_S00_AXI_0_0/real_time_32b_counter_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block real_time_clock_v1_0_S00_AXI_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_s00_data_fifo_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to VHDL. However IP 'design_1_s00_data_fifo_0' does not support 'VHDL Synthesis' output products, delivering 'Verilog Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/s00_data_fifo .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_s01_data_fifo_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to VHDL. However IP 'design_1_s01_data_fifo_0' does not support 'VHDL Synthesis' output products, delivering 'Verilog Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/s01_data_fifo .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_s02_data_fifo_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to VHDL. However IP 'design_1_s02_data_fifo_0' does not support 'VHDL Synthesis' output products, delivering 'Verilog Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s02_couplers/s02_data_fifo .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_s03_data_fifo_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to VHDL. However IP 'design_1_s03_data_fifo_0' does not support 'VHDL Synthesis' output products, delivering 'Verilog Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s03_couplers/s03_data_fifo .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_s04_data_fifo_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to VHDL. However IP 'design_1_s04_data_fifo_0' does not support 'VHDL Synthesis' output products, delivering 'Verilog Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s04_couplers/s04_data_fifo .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_auto_cc_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to VHDL. However IP 'design_1_auto_cc_0' does not support 'VHDL Synthesis' output products, delivering 'Verilog Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m05_couplers/auto_cc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_auto_cc_1'...
+WARNING: [IP_Flow 19-1687] The current project language is set to VHDL. However IP 'design_1_auto_cc_1' does not support 'VHDL Synthesis' output products, delivering 'Verilog Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m06_couplers/auto_cc .
+Exporting to file /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/hdl/design_1.hwdef
+Adding component instance block -- xilinx.com:ip:axi_ethernet_buffer:2.0 - eth_buf
+Adding component instance block -- xilinx.com:ip:tri_mode_ethernet_mac:9.0 - eth_mac
+Successfully read diagram <bd_0> from BD file </data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_0/bd_0/bd_0.bd>
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to net 'axi_bram_ctrl_0_bram_porta_ADDR'(12) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/addrb'(32) to net 'axi_bram_ctrl_0_bram_portb_ADDR'(12) - Only lower order bits will be connected.
+VHDL Output written to : /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/hdl/design_1.vhd
+VHDL Output written to : /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+Wrote  : </data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/design_1.bd> 
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_microblaze_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_mig_7series_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_mig_7series_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_mig_7series_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_dlmb_v10_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_ilmb_v10_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_dlmb_bram_if_cntlr_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_ilmb_bram_if_cntlr_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_lmb_bram_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_microblaze_0_axi_intc_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_microblaze_0_xlconcat_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_mdm_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_proc_sys_reset_1_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_proc_sys_reset_1_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_proc_sys_reset_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_axi_timer_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_axi_uartlite_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_axi_uartlite_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_axi_uartlite_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_axi_bram_ctrl_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_blk_mem_gen_0_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_axi_ethernet_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1637] Generated targets are already up-to-date for bd-design 'bd_0' - hence not re-generating.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_axi_ethernet_0_dma_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0_dma .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_xbar_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_xbar_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/c_counter_binary_3'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/prescaler_counter_binary_3'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/c_counter_binary_2'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/c_counter_binary_1'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/c_counter_binary_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/blk_mem_gen_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block trigger_logic_AXI_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_rst_clk_wiz_0_401M_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_rst_clk_wiz_0_401M_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_rst_clk_wiz_0_401M_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_0_401M .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_rst_clk_wiz_0_125M_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_rst_clk_wiz_0_125M_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_rst_clk_wiz_0_125M_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_0_125M .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_real_time_clock_v1_0_S00_AXI_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_real_time_clock_v1_0_S00_AXI_0_0/real_time_1ms_from_125MHz_counter_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_real_time_clock_v1_0_S00_AXI_0_0/real_time_32b_counter_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block real_time_clock_v1_0_S00_AXI_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_s00_data_fifo_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/s00_data_fifo .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_s01_data_fifo_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/s01_data_fifo .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_s02_data_fifo_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s02_couplers/s02_data_fifo .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_s03_data_fifo_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s03_couplers/s03_data_fifo .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_s04_data_fifo_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s04_couplers/s04_data_fifo .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_auto_cc_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m05_couplers/auto_cc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_auto_cc_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m06_couplers/auto_cc .
+Exporting to file /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/hdl/design_1.hwdef
+[Thu Oct  8 12:03:02 2015] Launched synth_1...
+Run output will be captured here: /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/synth_1/runme.log
+[Thu Oct  8 12:03:02 2015] Launched impl_1...
+Run output will be captured here: /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:02:28 ; elapsed = 00:02:23 . Memory (MB): peak = 6630.152 ; gain = 292.395 ; free physical = 4604 ; free virtual = 29983
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203343119A
+set_property PROGRAM.FILE {/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 6630.156 ; gain = 0.000 ; free physical = 4944 ; free virtual = 30436
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+file copy -force /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/impl_1/design_1_wrapper.sysdef /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf
+
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 6630.156 ; gain = 0.000 ; free physical = 4944 ; free virtual = 30436
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+launch_sdk -workspace /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_bd_design {/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+open_project /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/ip_repo/myip_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 6653.875 ; gain = 14.008 ; free physical = 4376 ; free virtual = 29869
+current_project project_1
+close_project
+ipx::open_ipxact_file /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/component.xml
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/new/rate_counter.vhd'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/new/fixed_1Hz_pulse_gen.vhd'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/new/rate_counters.vhd'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/new/test_mux.vhd'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/imports/moore.1424/xillinx/trigger_logic_ac701/trigger_logic_ac701.srcs/sources_1/new/all_input_delays.v'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/imports/moore.1424/xillinx/trigger_logic_ac701/trigger_logic_ac701.srcs/sources_1/new/varable_delays.vhd'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/new/mux_10_to_2.vhd'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/imports/tmp/pulse_gen_ripple.vhd'.
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/new/rate_counter.vhd'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/new/fixed_1Hz_pulse_gen.vhd'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/new/rate_counters.vhd'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/new/test_mux.vhd'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/imports/moore.1424/xillinx/trigger_logic_ac701/trigger_logic_ac701.srcs/sources_1/new/all_input_delays.v'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/imports/moore.1424/xillinx/trigger_logic_ac701/trigger_logic_ac701.srcs/sources_1/new/varable_delays.vhd'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/new/mux_10_to_2.vhd'.
+WARNING: [IP_Flow 19-3833] Not packaging sources file marked as disabled: '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/sources_1/imports/tmp/pulse_gen_ripple.vhd'.
+INFO: [IP_Flow 19-2418] Expression "((C_S_AXI_DATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable.
+set_property core_revision 26 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs
+INFO: [IP_Flow 19-725] Reloaded user IP repository '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs'
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.srcs/user.org_user_trigger_logic_AXI_1.1.zip [ipx::current_core]
+close_project
+open_project /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/trigger_logic_axi_io'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/pulse_gen_axi'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/n/15/moore.1424/xillinx/axi_real_time_clock'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/xilinx/Vivado/2015.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_trigger_logic_AXI_0_0
+
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 6665.539 ; gain = 4.668 ; free physical = 4345 ; free virtual = 29839
+open_bd_design {/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_0
+Adding component instance block -- xilinx.com:ip:axi_ethernet:7.0 - axi_ethernet_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_ethernet_0_dma
+Adding component instance block -- xilinx.com:ip:axi_timer:2.0 - axi_timer_0
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.2 - blk_mem_gen_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:5.1 - clk_wiz_0
+Adding component instance block -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding component instance block -- xilinx.com:ip:microblaze:9.5 - microblaze_0
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - microblaze_0_axi_intc
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - microblaze_0_xlconcat
+Adding component instance block -- xilinx.com:ip:mig_7series:2.3 - mig_7series_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_1
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_0_401M
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_0_125M
+Adding component instance block -- user.org:user:real_time_clock_v1_0_S00_AXI:1.0 - real_time_clock_v1_0_S00_AXI_0
+Adding component instance block -- user.org:user:trigger_logic_AXI:1.1 - trigger_logic_AXI_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding component instance block -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_data_fifo:2.1 - s04_data_fifo
+Adding component instance block -- xilinx.com:ip:axi_data_fifo:2.1 - s03_data_fifo
+Adding component instance block -- xilinx.com:ip:axi_data_fifo:2.1 - s02_data_fifo
+Adding component instance block -- xilinx.com:ip:axi_data_fifo:2.1 - s01_data_fifo
+Adding component instance block -- xilinx.com:ip:axi_data_fifo:2.1 - s00_data_fifo
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.2 - lmb_bram
+Successfully read diagram <design_1> from BD file </data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 6694.621 ; gain = 24.629 ; free physical = 4314 ; free virtual = 29808
+report_ip_status -name ip_status 
+upgrade_ip -vlnv user.org:user:trigger_logic_AXI:1.1 [get_ips  design_1_trigger_logic_AXI_0_0]
+Upgrading '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3422] Upgraded design_1_trigger_logic_AXI_0_0 (trigger_logic_AXI_v1_1 1.1) from revision 25 to revision 26
+INFO: [IP_Flow 19-3471] Wrote upgrade log to '/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/ip/design_1_trigger_logic_AXI_0_0/design_1_trigger_logic_AXI_0_0.upgrade_log'.
+Wrote  : </data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/design_1.bd> 
+upgrade_ip: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 6738.047 ; gain = 38.969 ; free physical = 4336 ; free virtual = 29764
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+Adding component instance block -- xilinx.com:ip:axi_ethernet_buffer:2.0 - eth_buf
+Adding component instance block -- xilinx.com:ip:tri_mode_ethernet_mac:9.0 - eth_mac
+Successfully read diagram <bd_0> from BD file </data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_0/bd_0/bd_0.bd>
+WARNING: [xilinx.com:ip:microblaze:9.5-14] /microblaze_0: The D-cache cacheable segment 0x80000000 - 0xBFFFFFFF does not include the M_AXI_DC segment 0xC0000000-0xC0000FFF, which prevents this M_AXI_DC segment from being accessed by the cache. To resolve this issue change user assigned parameters C_DCACHE_BASEADDR and C_DCACHE_HIGHADDR, or modify the address map.
+WARNING: [xilinx.com:ip:microblaze:9.5-14] /microblaze_0: The I-cache cacheable segment 0x80000000 - 0xBFFFFFFF does not include the M_AXI_IC segment 0xC0000000-0xC0000FFF, which prevents this M_AXI_IC segment from being accessed by the cache. To resolve this issue change user assigned parameters C_ICACHE_BASEADDR and C_ICACHE_HIGHADDR, or modify the address map.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to net 'axi_bram_ctrl_0_bram_porta_ADDR'(12) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/addrb'(32) to net 'axi_bram_ctrl_0_bram_portb_ADDR'(12) - Only lower order bits will be connected.
+VHDL Output written to : /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/hdl/design_1.vhd
+VHDL Output written to : /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+Wrote  : </data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/design_1.bd> 
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_microblaze_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_mig_7series_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'design_1_mig_7series_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_dlmb_v10_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_ilmb_v10_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_dlmb_bram_if_cntlr_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_ilmb_bram_if_cntlr_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_lmb_bram_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_microblaze_0_axi_intc_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_microblaze_0_xlconcat_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_mdm_1_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_proc_sys_reset_1_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'design_1_proc_sys_reset_1_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_1 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_axi_timer_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_axi_uartlite_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'design_1_axi_uartlite_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_axi_bram_ctrl_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_blk_mem_gen_0_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_axi_ethernet_0_0'...
+VHDL Output written to : /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_0/bd_0/hdl/bd_0.vhd
+VHDL Output written to : /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_0/bd_0/hdl/bd_0_wrapper.vhd
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_axi_ethernet_0_0/bd_0/bd_0_eth_buf_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'design_1_axi_ethernet_0_0/bd_0/bd_0_eth_buf_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block eth_buf .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_axi_ethernet_0_0/bd_0/bd_0_eth_mac_0'...
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Hardware_Evaluation license.
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Hardware_Evaluation license.
+WARNING: [IP_Flow 19-650] IP license key 'tri_mode_eth_mac@2015.04' is enabled with a Hardware_Evaluation license.
+WARNING: [IP_Flow 19-650] IP license key 'tri_mode_eth_mac@2015.04' is enabled with a Hardware_Evaluation license.
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'design_1_axi_ethernet_0_0/bd_0/bd_0_eth_mac_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block eth_mac .
+INFO: [BD 41-1379] This design does not contain any processor.
+Exporting to file /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_0/bd_0/hw_handoff/design_1_axi_ethernet_0_0.hwh
+Generated Block Design Tcl file /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_0/bd_0/hw_handoff/design_1_axi_ethernet_0_0_bd.tcl
+Generated Hardware Definition File /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_0/bd_0/hdl/design_1_axi_ethernet_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_axi_ethernet_0_dma_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0_dma .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_clk_wiz_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'design_1_clk_wiz_0_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_xbar_1'...
+WARNING: [IP_Flow 19-1687] The current project language is set to VHDL. However IP 'design_1_xbar_1' does not support 'VHDL Synthesis' output products, delivering 'Verilog Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_xbar_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to VHDL. However IP 'design_1_xbar_0' does not support 'VHDL Synthesis' output products, delivering 'Verilog Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/c_counter_binary_3'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/prescaler_counter_binary_3'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/c_counter_binary_2'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/c_counter_binary_1'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/c_counter_binary_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/blk_mem_gen_1'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block trigger_logic_AXI_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_rst_clk_wiz_0_401M_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'design_1_rst_clk_wiz_0_401M_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_0_401M .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_rst_clk_wiz_0_125M_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'design_1_rst_clk_wiz_0_125M_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_0_125M .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_real_time_clock_v1_0_S00_AXI_0_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_real_time_clock_v1_0_S00_AXI_0_0/real_time_1ms_from_125MHz_counter_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_real_time_clock_v1_0_S00_AXI_0_0/real_time_32b_counter_0'...
+INFO: [BD 41-1029] Generation completed for the IP Integrator block real_time_clock_v1_0_S00_AXI_0 .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_s00_data_fifo_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to VHDL. However IP 'design_1_s00_data_fifo_0' does not support 'VHDL Synthesis' output products, delivering 'Verilog Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/s00_data_fifo .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_s01_data_fifo_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to VHDL. However IP 'design_1_s01_data_fifo_0' does not support 'VHDL Synthesis' output products, delivering 'Verilog Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/s01_data_fifo .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_s02_data_fifo_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to VHDL. However IP 'design_1_s02_data_fifo_0' does not support 'VHDL Synthesis' output products, delivering 'Verilog Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s02_couplers/s02_data_fifo .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_s03_data_fifo_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to VHDL. However IP 'design_1_s03_data_fifo_0' does not support 'VHDL Synthesis' output products, delivering 'Verilog Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s03_couplers/s03_data_fifo .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_s04_data_fifo_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to VHDL. However IP 'design_1_s04_data_fifo_0' does not support 'VHDL Synthesis' output products, delivering 'Verilog Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s04_couplers/s04_data_fifo .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_auto_cc_0'...
+WARNING: [IP_Flow 19-1687] The current project language is set to VHDL. However IP 'design_1_auto_cc_0' does not support 'VHDL Synthesis' output products, delivering 'Verilog Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m05_couplers/auto_cc .
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_auto_cc_1'...
+WARNING: [IP_Flow 19-1687] The current project language is set to VHDL. However IP 'design_1_auto_cc_1' does not support 'VHDL Synthesis' output products, delivering 'Verilog Synthesis' output products instead.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m06_couplers/auto_cc .
+Exporting to file /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/hdl/design_1.hwdef
+Adding component instance block -- xilinx.com:ip:axi_ethernet_buffer:2.0 - eth_buf
+Adding component instance block -- xilinx.com:ip:tri_mode_ethernet_mac:9.0 - eth_mac
+Successfully read diagram <bd_0> from BD file </data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_0/bd_0/bd_0.bd>
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/addra'(32) to net 'axi_bram_ctrl_0_bram_porta_ADDR'(12) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/blk_mem_gen_0/addrb'(32) to net 'axi_bram_ctrl_0_bram_portb_ADDR'(12) - Only lower order bits will be connected.
+VHDL Output written to : /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/hdl/design_1.vhd
+VHDL Output written to : /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+Wrote  : </data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/design_1.bd> 
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_microblaze_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_mig_7series_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_mig_7series_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_mig_7series_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_dlmb_v10_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_ilmb_v10_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_dlmb_bram_if_cntlr_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_ilmb_bram_if_cntlr_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_lmb_bram_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_microblaze_0_axi_intc_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_microblaze_0_xlconcat_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_mdm_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_proc_sys_reset_1_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_proc_sys_reset_1_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_proc_sys_reset_1_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_1 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_axi_timer_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_axi_uartlite_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_axi_uartlite_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_axi_uartlite_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_axi_bram_ctrl_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_blk_mem_gen_0_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_axi_ethernet_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1637] Generated targets are already up-to-date for bd-design 'bd_0' - hence not re-generating.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_axi_ethernet_0_dma_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0_dma .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_clk_wiz_0_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_xbar_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_xbar_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/c_counter_binary_3'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/prescaler_counter_binary_3'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/c_counter_binary_2'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/c_counter_binary_1'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/c_counter_binary_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_trigger_logic_AXI_0_0/blk_mem_gen_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block trigger_logic_AXI_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_rst_clk_wiz_0_401M_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_rst_clk_wiz_0_401M_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_rst_clk_wiz_0_401M_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_0_401M .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_rst_clk_wiz_0_125M_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_rst_clk_wiz_0_125M_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'design_1_rst_clk_wiz_0_125M_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_0_125M .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_real_time_clock_v1_0_S00_AXI_0_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_real_time_clock_v1_0_S00_AXI_0_0/real_time_1ms_from_125MHz_counter_0'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_real_time_clock_v1_0_S00_AXI_0_0/real_time_32b_counter_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block real_time_clock_v1_0_S00_AXI_0 .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_s00_data_fifo_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/s00_data_fifo .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_s01_data_fifo_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/s01_data_fifo .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_s02_data_fifo_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s02_couplers/s02_data_fifo .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_s03_data_fifo_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s03_couplers/s03_data_fifo .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_s04_data_fifo_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s04_couplers/s04_data_fifo .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_auto_cc_0'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m05_couplers/auto_cc .
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'design_1_auto_cc_1'. Target already exists and is up to date.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m06_couplers/auto_cc .
+Exporting to file /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.srcs/sources_1/bd/design_1/hdl/design_1.hwdef
+[Thu Oct  8 14:12:01 2015] Launched synth_1...
+Run output will be captured here: /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/synth_1/runme.log
+[Thu Oct  8 14:12:01 2015] Launched impl_1...
+Run output will be captured here: /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:02:17 ; elapsed = 00:02:18 . Memory (MB): peak = 6775.594 ; gain = 37.547 ; free physical = 4333 ; free virtual = 29713
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203343119A
+set_property PROGRAM.FILE {/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 6775.594 ; gain = 0.000 ; free physical = 4432 ; free virtual = 29662
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+file copy -force /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/impl_1/design_1_wrapper.sysdef /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk -hwspec /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+ERROR: [Labtools 27-3175] Target jsn-JTAG-SMT1-210203343119A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210203343119A
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/impl_1/design_1_wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 6775.594 ; gain = 0.000 ; free physical = 4488 ; free virtual = 29722
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev  [lindex [get_cfgmem_parts {n25q256-3.3v-spi-x1_x2_x4}] 0]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.FILES [list "/data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.runs/impl_1/design_1_wrapper.bit" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+startgroup 
+if {![string equal [get_property PROGRAM.HW_CFGMEM_TYPE  [lindex [get_hw_devices] 0]] [get_property MEM_TYPE [get_property CFGMEM_PART [get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]]]] }  { create_hw_bitstream -hw_device [lindex [get_hw_devices] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices] 0]]; program_hw_devices [lindex [get_hw_devices] 0]; }; 
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_cfgmem -hw_cfgmem [get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+Mfg ID : 20   Memory Type : ba   Memory Capacity : 19   Device ID 1 : 0   Device ID 2 : 0
+Performing Erase Operation...
+Erase Operation successful.
+Performing Program and Verify Operations...
+Program/Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:02 ; elapsed = 00:05:00 . Memory (MB): peak = 6796.547 ; gain = 9.273 ; free physical = 4474 ; free virtual = 29711
+endgroup
+ERROR: [Labtools 27-3175] Target jsn-JTAG-SMT1-210203343119A is no longer available.
+Please use disconnect_hw_server to close the current server connection. Check cable connectivity and that the target board is powered up.
+Restart the hw_server application running on host localhost, port 3121 and then use connect_hw_server to re-establish connection to target.
+close_hw_target
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost/xilinx_tcf/Digilent/210203343119A

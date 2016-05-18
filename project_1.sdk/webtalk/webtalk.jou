@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# 
+# Start of session at: Tue Apr 12 12:44:09 2016
+# Process ID: 5631
+# Log file: /data1/jmoore/XAPP1026/Trigger_box/HW/project_1.sdk/webtalk/webtalk.log
+# Journal file: /data1/jmoore/XAPP1026/Trigger_box/HW/project_1.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

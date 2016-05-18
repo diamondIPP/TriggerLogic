@@ -1,0 +1,21 @@
+#for outputs 0-2
+
+#set_property PACKAGE_PIN A17 [get_ports {CLK_0}]
+#set_property DRIVE 16 [get_ports {CLK_0}]
+#set_property IOSTANDARD LVCMOS25 [get_ports {CLK_0}]
+#set_property PACKAGE_PIN A18 [get_ports {CLK_1}]
+#set_property DRIVE 16 [get_ports {CLK_1}]
+#set_property IOSTANDARD LVCMOS25 [get_ports {CLK_1}]
+#set_property PACKAGE_PIN B19 [get_ports {CLK_2}]
+#set_property DRIVE 16 [get_ports {CLK_2}]
+#set_property IOSTANDARD LVCMOS25 [get_ports {CLK_2}]
+#outputs 3-5
+set_property PACKAGE_PIN A19 [get_ports {CLK_0}]
+set_property DRIVE 16 [get_ports {CLK_0}]
+set_property IOSTANDARD LVCMOS25 [get_ports {CLK_0}]
+set_property PACKAGE_PIN E20 [get_ports {CLK_1}]
+set_property DRIVE 16 [get_ports {CLK_1}]
+set_property IOSTANDARD LVCMOS25 [get_ports {CLK_1}]
+set_property PACKAGE_PIN D20 [get_ports {CLK_2}]
+set_property DRIVE 16 [get_ports {CLK_2}]
+set_property IOSTANDARD LVCMOS25 [get_ports {CLK_2}]

@@ -1,0 +1,1152 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Jan 15 17:32:46 2016
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.1) from (Rev. 32) to (Rev. 33)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'design_1_trigger_logic_AXI_0_0'. These changes may impact your design.
+
+
+-upgrade has added port 'TRIG_1'
+-upgrade has added port 'TRIG_2'
+-upgrade has added port 'TRIG_3'
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Dec 18 17:34:46 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.1) from (Rev. 31) to (Rev. 32)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Tue Dec 15 09:58:38 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.1) from (Rev. 30) to (Rev. 31)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Mon Dec 14 18:16:17 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.1) from (Rev. 29) to (Rev. 30)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Mon Dec 14 18:09:20 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.1) from (Rev. 28) to (Rev. 29)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu Dec  3 14:12:38 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.1) from (Rev. 26) to (Rev. 28)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Mon Oct 12 10:05:31 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.1 (Rev. 26)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu Oct  8 14:04:45 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.1) from (Rev. 25) to (Rev. 26)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu Oct  8 11:59:38 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.1) from (Rev. 24) to (Rev. 25)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Oct  7 20:05:25 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.1) from (Rev. 22) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Oct  7 19:09:06 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.1) from (Rev. 21) to (Rev. 22)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Oct  7 10:42:07 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.1) from (Rev. 20) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Oct  7 00:17:12 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.1) from (Rev. 19) to (Rev. 20)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'design_1_trigger_logic_AXI_0_0'. These changes may impact your design.
+
+
+-upgrade has removed port 'pulse_in'
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Oct  7 00:14:07 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.1) from (Rev. 17) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Tue Oct  6 19:30:13 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_trigger_logic_AXI_0_0 from user.org:user:trigger_logic_AXI:1.0 (Rev. 16) to user.org:user:trigger_logic_AXI:1.1 (Rev. 17)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'design_1_trigger_logic_AXI_0_0'. These changes may impact your design.
+
+
+-upgrade has added port 'pulse_in'
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Tue Oct  6 16:07:45 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 15) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Tue Oct  6 12:34:11 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 13) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Tue Oct  6 10:36:22 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0 (Rev. 13)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Tue Oct  6 10:26:24 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0 (Rev. 13)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Mon Oct  5 21:54:24 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Mon Oct  5 15:57:11 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Mon Oct  5 15:00:39 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Mon Oct  5 13:16:41 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Sat Oct  3 08:06:54 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Sat Oct  3 00:01:12 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 6) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Oct  2 17:03:59 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Oct  2 14:48:36 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Oct  2 12:21:35 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 21) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu Oct  1 17:53:27 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 20) to (Rev. 21)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'design_1_trigger_logic_AXI_0_0'. These changes may impact your design.
+
+
+-upgrade has removed port 'TEST_OUT'
+-upgrade has removed port 'TEST_SMA'
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu Oct  1 17:50:14 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 19) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu Oct  1 15:42:14 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0 (Rev. 19)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu Oct  1 13:12:52 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0 (Rev. 19)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu Oct  1 11:56:37 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 18) to (Rev. 19)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'design_1_trigger_logic_AXI_0_0'. These changes may impact your design.
+
+
+-upgrade has added port 'TEST_OUT'
+-upgrade has added port 'TEST_SMA'
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu Oct  1 11:21:47 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Sep 30 18:18:33 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Sep 30 14:30:54 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 15) to (Rev. 16)
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Warnings
+-----------
+
+WARNING: The upgraded user parameter set contained parameters that could not be mapped on to the upgraded IP. Note that parameter names and IDs are case sensitive.
+
+
+3. Customization warnings
+-------------------------
+
+WARNING: Parameter 'beam_current_resolution' is no longer present on the upgraded IP 'design_1_trigger_logic_AXI_0_0', and cannot be set to '16'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  Please consult the warnings from the previous sections, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv user.org:user:trigger_logic_AXI:1.0 -user_name design_1_trigger_logic_AXI_0_0
+set_property -dict "\
+  CONFIG.triggers 10 \
+  CONFIG.DELAY_INPUT_WIDTH 16 \
+  CONFIG.C_S_AXI_DATA_WIDTH 32 \
+  CONFIG.C_S_AXI_ADDR_WIDTH 7 \
+  CONFIG.Component_Name design_1_trigger_logic_AXI_0_0 " [get_ips design_1_trigger_logic_AXI_0_0]
+
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Sep 30 11:31:37 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 13) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Tue Sep 29 16:42:08 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0 (Rev. 13)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Tue Sep 29 16:36:26 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Tue Sep 29 09:14:54 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Mon Sep 28 17:20:28 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Mon Sep 28 16:44:28 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0 (Rev. 10)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Mon Sep 28 14:13:43 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0 (Rev. 10)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Sep 25 17:45:51 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Sep 25 15:19:08 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Sep 25 14:53:23 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Sep 25 11:41:18 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Sep 25 11:22:39 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0 (Rev. 6)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Sep 25 11:17:28 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Sep 25 09:29:57 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu Sep 24 18:38:05 2015
+| Host         : cadence11 running 64-bit Scientific Linux CERN SLC release 6.7 (Carbon)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+-----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_trigger_logic_AXI_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_trigger_logic_AXI_0_0 (user.org:user:trigger_logic_AXI:1.0 (Rev. 4)) to current project options.
+

@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Dec 17 12:07:53 2015
+# Process ID: 7950
+# Log file: /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/vivado.log
+# Journal file: /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/project_1.xpr
+open_hw
+connect_hw_server
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+open_hw_target {localhost/xilinx_tcf/Digilent/210203343119A}
+open_hw_target {localhost/xilinx_tcf/Digilent/210203343119A}

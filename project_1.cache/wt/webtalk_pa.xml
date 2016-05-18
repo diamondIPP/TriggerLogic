@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Mon May 16 21:53:28 2016">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="1aecc01bc2c04f9792d99911459ae4a0" type="ProjectID"/>
+<property name="ProjectIteration" value="128" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Flow_RuntimeOptimized" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="CloseProject" value="-15" type="JavaHandler"/>
+<property name="EditProperties" value="1" type="JavaHandler"/>
+<property name="FileExit" value="1" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenBlockDesign" value="1" type="JavaHandler"/>
+<property name="OpenProject" value="2" type="JavaHandler"/>
+<property name="RunImplementation" value="-3" type="JavaHandler"/>
+<property name="RunSynthesis" value="-1" type="JavaHandler"/>
+<property name="SimulationRun" value="0" type="JavaHandler"/>
+<property name="ZoomFit" value="2" type="JavaHandler"/>
+<property name="ZoomIn" value="21" type="JavaHandler"/>
+<property name="ui.views.b.h.f" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceCommand.PACommandNames_ZOOM_FIT, System_zoom_fit" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ZOOM_IN, System_zoom_in" value="21" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Configuration Files], 3" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, IP Update Log], 4" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, design_1_wrapper - STRUCTURE (design_1_wrapper.vhd" value="18" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 7" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FindAndReplaceAllDialog_FIND, Find" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FindInFilesView_ROOT, [ROOT], 23" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FindInFilesView_ROOT, [ROOT], 23, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FindInFilesView_ROOT, [ROOT], 23, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FindInFilesView_ROOT, [ROOT], 24" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FindInFilesView_ROOT, [ROOT], 24, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, IP Integrator, Open Block Design], 7, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_DOCUMENTATION_AND_TUTORIALS, Documentation and Tutorials" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_OPEN_PROJECT, Open Project" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PACodeView_FIND_IN_FILES, Find in Files..." value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SelectMenu_HIGHLIGHT, Highlight" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemTreeView_SYSTEM_TREE, [design_1, rst_clk_wiz_0_125M, interconnect_aresetn], 30, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemTreeView_SYSTEM_TREE, [design_1, rst_clk_wiz_0_125M], 25" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemTreeView_SYSTEM_TREE, [design_1, rst_clk_wiz_0_125M], 25, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemTreeView_SYSTEM_TREE, [design_1, rst_clk_wiz_0_401M], 26, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemTreeView_SYSTEM_TREE, [design_1, trigger_logic_AXI_0], 27" value="2" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="3" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_PROPERTIES, Block Properties..." value="1" type="GuiResourceData"/>
+<property name="handshake_unit.vhd, 159, 83" value="1" type="GuiResourceData"/>
+<property name="handshake_unit.vhd, 159, 83, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="handshake_unit.vhd, 159, 83, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="handshake_unit.vhd, 170, 194" value="2" type="GuiResourceData"/>
+<property name="handshake_unit.vhd, 170, 194, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="handshake_unit.vhd, 185, 210" value="1" type="GuiResourceData"/>
+<property name="handshake_unit.vhd, 185, 210, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="handshake_unit.vhd, 534, 11" value="1" type="GuiResourceData"/>
+<property name="handshake_unit.vhd, 869, 298" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="1" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="0" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

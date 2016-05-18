@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Sep 24 18:35:25 2015
+# Process ID: 29432
+# Log file: /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/webtalk.log
+# Journal file: /data1/jmoore/XAPP1026/AC701_AxiEth_100Mhz_64kb/HW/webtalk.jou
+#-----------------------------------------------------------
+source /n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] '/n/15/moore.1424/xillinx/trigger_logic_axi_io/trigger_logic_axi_io.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Thu Sep 24 18:35:27 2015. For additional details about this file, please refer to the WebTalk help file at /opt/xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Sep 24 18:35:27 2015...
